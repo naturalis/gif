@@ -12,341 +12,341 @@
 #     - status
 
 devices:
-#  # Stargazer
-#  foreman-001:
-#    type: linux
-#    barcode: sr004346
-#    description: Stargazer and Foreman server
-#    ip: 172.16.75.5
-#    mac: 0c:c4:7a:03:d8:fc
-#    state: enabled
-#
-#  # Ecue lighting computer
-#  ecue-001:
-#    type: windows
-#    barcode: dt003566
-#    description: Ecue lighting computer
-#    ip: 172.16.75.6
-#    mac: 84:8f:69:f8:ab:02
-#    state: enabled
-#    actions:
-#      - poweron
-#      - poweroff
-#      - status
-#
-#  reserve-001:
-#    type: reserve
-#    barcode: bt000000
-#    description: Reserve
-#    ip: 172.16.75.7
-#    mac: 00:00:00:00:00:00
-#
-#  butler-001:
-#    type: butler
-#    barcode: bt000000
-#    description: Butler voor Ecue
-#    ip: 172.16.75.8
-#    mac: 00:00:00:00:00:00
-#
-#  butler-002:
-#    type: butler
-#    barcode: bt000000
-#    description: Butler voor Ecue
-#    ip: 172.16.75.10
-#    mac: 00:00:00:00:00:00
-#
-#  kissbox-ecue-001:
-#    type: kissbox
-#    barcode: kb000000
-#    description: Kissbox op zolder voor Ecue
-#    ip: 172.16.75.9
-#    mac: 00:e0:6b:ff:06:03
-#
-#  # Everything related to Kissbox MER
-#  kissbox-mer:
-#    type: kissbox
-#    barcode: kb005883
-#    description: Kissbox in MER
-#    ip: 172.16.75.11
-#    mac: 00:e0:6b:7e:ff:8a
-#
-#  kissbox-mer-groep-001:
-#    type: powerrelay
-#    description: Werkverlichting Dinosafari 1 (phl.e00.04.00)
-#    ip: 172.16.75.11
-#    mac: 00:e0:6b:7e:ff:8a
-#    state: enabled
-#    slot: 0
-#    channel: 0
-#    actions:
-#      - poweron
-#      - poweroff
-#      - status
-#
-#  kissbox-mer-groep-002:
-#    type: powerrelay
-#    description: Werkverlichting Dinosafari 2 (phl.e00.05.00)
-#    ip: 172.16.75.11
-#    mac: 00:e0:6b:7e:ff:8a
-#    state: enabled
-#    slot: 0
-#    channel: 1
-#    actions:
-#      - poweron
-#      - poweroff
-#      - status
-#
-#  kissbox-mer-groep-003:
-#    type: powerrelay
-#    description: Animatronics Dinosafari 1 (eiland 2) + Achtergrondgeluid Dinosafari 1 + videoplayer-002 (Wandverlichting Dinosafari 1 (phl.e00.04.00) + Vitrine verlichting Dinosafari 2 (phl.e00.05.00))
-#    ip: 172.16.75.11
-#    mac: 00:e0:6b:7e:ff:8a
-#    state: enabled
-#    slot: 0
-#    channel: 2
-#    actions:
-#      - poweron
-#      - poweroff
-#      - status
-#
-#  kissbox-mer-groep-004:
-#    type: powerrelay
-#    description: Gewone, wit-gele spots Dinosafari 1 (Dimmer 1 Dinosafari 1, Dimmer 2 Dinosafari 1 (phl.e00.04.00))
-#    ip: 172.16.75.11
-#    mac: 00:e0:6b:7e:ff:8a
-#    state: enabled
-#    slot: 0
-#    channel: 3
-#    actions:
-#      - poweron
-#      - poweroff
-#      - status
-#
-#  kissbox-mer-groep-005:
-#    type: powerrelay
-#    description: Animatronics Dinosafari 2 (eiland 1 en 2) + Achtergrondgeluid Dinosafari 2 + Videoplayers 003 en 004 (Wandverlichting Dinosafari 2, Vitrineverlichting Dinosafari 2)
-#    ip: 172.16.75.11
-#    mac: 00:e0:6b:7e:ff:8a
-#    state: enabled
-#    slot: 1
-#    channel: 0
-#    actions:
-#      - poweron
-#      - poweroff
-#      - status
-#
-#  kissbox-mer-groep-006:
-#    type: powerrelay
-#    description: Gewone, wit-gele spots Dinosafari 1 (Dimmer 3 Dinosafari 2, Dimmer 4 Dinosafari 2)
-#    ip: 172.16.75.11
-#    mac: 00:e0:6b:7e:ff:8a
-#    state: enabled
-#    slot: 1
-#    channel: 1
-#    actions:
-#      - poweron
-#      - poweroff
-#      - status
-#
-#  kissbox-mer-groep-007:
-#    type: powerrelay
-#    description: Verlichting entresol Dinosafari 2
-#    ip: 172.16.75.11
-#    mac: 00:e0:6b:7e:ff:8a
-#    state: enabled
-#    slot: 1
-#    channel: 2
-#    actions:
-#      - poweron
-#      - poweroff
-#      - status
-#
-#  kissbox-mer-groep-008:
-#    type: powerrelay
-#    description: LED belichting Dinosafari 2 (Stekkerdoos spanningsrail (groep 27))
-#    ip: 172.16.75.11
-#    mac: 00:e0:6b:7e:ff:8a
-#    state: enabled
-#    slot: 1
-#    channel: 3
-#    actions:
-#      - poweron
-#      - poweroff
-#      - status
-#
-#  kissbox-mer-groep-009:
-#    type: powerrelay
-#    description: LED belichting Dinosafari 1 (Stekkerdoos spanningsrail (groep 40))
-#    ip: 172.16.75.11
-#    mac: 00:e0:6b:7e:ff:8a
-#    state: enabled
-#    slot: 2
-#    channel: 0
-#    actions:
-#      - poweron
-#      - poweroff
-#      - status
-#
-#  kissbox-mer-groep-010:
-#    type: powerrelay
-#    description:  Dinosafari 1 (eiland 1) + videoplayer-001 (ASP (groep 29))
-#    ip: 172.16.75.11
-#    mac: 00:e0:6b:7e:ff:8a
-#    state: enabled
-#    slot: 2
-#    channel: 1
-#    actions:
-#      - poweron
-#      - poweroff
-#      - status
-#
-#  kissbox-mer-groep-011:
-#    type: powerrelay
-#    description: Reserve
-#    ip: 172.16.75.11
-#    mac: 00:e0:6b:7e:ff:8a
-#    state: enabled
-#    slot: 2
-#    channel: 2
-#    actions:
-#      - poweron
-#      - poweroff
-#      - status
-#
-#  kissbox-mer-groep-012:
-#    type: powerrelay
-#    description: Compressor
-#    ip: 172.16.75.11
-#    mac: 00:e0:6b:7e:ff:8a
-#    state: enabled
-#    slot: 2
-#    channel: 3
-#    actions:
-#      - poweron
-#      - poweroff
-#      - status
-#
-#  # Everything related to Kissbox Lift
-#  kissbox-lift:
-#    type: kissbox
-#    barcode: kb001236
-#    description: Kissbox in Lift
-#    ip: 172.16.75.12
-#    mac: 00:e0:6b:7e:ff:7a
-#
-#  kissbox-lift-groep-001:
-#    # Maar een paar werklampen lijken te werken.
-#    type: powerrelay
-#    description: Werkverlichting Restaurant + Amazone / Caraiben
-#    ip: 172.16.75.12
-#    mac: 00:e0:6b:7e:ff:7a
-#    state: enabled
-#    slot: 0
-#    channel: 0
-#    actions:
-#      - poweron
-#      - poweroff
-#      - status
-#
-#  kissbox-lift-groep-002:
-#    type: powerrelay
-#    description: Werkverlichting Borneo / Oceanië (phl.e00.10.00)
-#    ip: 172.16.75.12
-#    mac: 00:e0:6b:7e:ff:7a
-#    state: enabled
-#    slot: 0
-#    channel: 1
-#    actions:
-#      - poweron
-#      - poweroff
-#      - status
-#
-#  kissbox-lift-groep-003:
-#    type: powerrelay
-#    description: Werkverlichting Wildlife Photographer 2 (phl.e00.06.00)
-#    ip: 172.16.75.12
-#    mac: 00:e0:6b:7e:ff:7a
-#    state: enabled
-#    slot: 0
-#    channel: 2
-#    actions:
-#      - poweron
-#      - poweroff
-#      - status
-#
-#  kissbox-lift-groep-004:
-#    type: powerrelay
-#    description: Infopanelen podium T.rex zaal
-#    ip: 172.16.75.12
-#    mac: 00:e0:6b:7e:ff:7a
-#    state: enabled
-#    slot: 0
-#    channel: 3
-#    actions:
-#      - poweron
-#      - poweroff
-#      - status
-#
-#  kissbox-lift-groep-005:
-#    # Nog niets te zien
-#    type: powerrelay
-#    description: Tijdelijke tentoonstelling spanningsrail 4 / T.rex doe dingen?
-#    ip: 172.16.75.12
-#    mac: 00:e0:6b:7e:ff:7a
-#    state: enabled
-#    slot: 1
-#    channel: 0
-#    actions:
-#      - poweron
-#      - poweroff
-#      - status
-#
-#  kissbox-lift-groep-006:
-#    type: powerrelay
-#    description: Reserve
-#    ip: 172.16.75.12
-#    mac: 00:e0:6b:7e:ff:7a
-#    state: enabled
-#    slot: 1
-#    channel: 1
-#    actions:
-#      - poweron
-#      - poweroff
-#      - status
-#
-#  # Everything related to Kissbox SER
-#  kissbox-ser:
-#    type: kissbox
-#    barcode: kb001237
-#    description: Kissbox in SER
-#    ip: 172.16.75.13
-#    mac: 00:e0:6b:7e:ff:4d
-#
-#  kissbox-ser-groep-001:
-#    type: powerrelay
-#    description:  Borneo / Oceanië (players en belichting) + belichting Wildlife Photographer of the Year 2 (vanaf plafond)
-#    ip: 172.16.75.13
-#    mac: 00:e0:6b:7e:ff:4d
-#    state: enabled
-#    slot: 0
-#    channel: 0
-#    actions:
-#      - poweron
-#      - poweroff
-#      - status
-#
-#  kissbox-ser-groep-002:
-#    type: powerrelay
-#    description: Reserve
-#    ip: 172.16.75.13
-#    mac: 00:e0:6b:7e:ff:4d
-#    state: enabled
-#    slot: 0
-#    channel: 1
-#    actions:
-#      - poweron
-#      - poweroff
-#      - status
+  # Stargazer
+  foreman-001:
+    type: linux
+    barcode: sr004346
+    description: Stargazer and Foreman server
+    ip: 172.16.75.5
+    mac: 0c:c4:7a:03:d8:fc
+    state: enabled
+
+  # Ecue lighting computer
+  ecue-001:
+    type: windows
+    barcode: dt003566
+    description: Ecue lighting computer
+    ip: 172.16.75.6
+    mac: 84:8f:69:f8:ab:02
+    state: enabled
+    actions:
+      - poweron
+      - poweroff
+      - status
+
+  reserve-001:
+    type: reserve
+    barcode: bt000000
+    description: Reserve
+    ip: 172.16.75.7
+    mac: 00:00:00:00:00:00
+
+  butler-001:
+    type: butler
+    barcode: bt000000
+    description: Butler voor Ecue
+    ip: 172.16.75.8
+    mac: 00:00:00:00:00:00
+
+  butler-002:
+    type: butler
+    barcode: bt000000
+    description: Butler voor Ecue
+    ip: 172.16.75.10
+    mac: 00:00:00:00:00:00
+
+  kissbox-ecue-001:
+    type: kissbox
+    barcode: kb000000
+    description: Kissbox op zolder voor Ecue
+    ip: 172.16.75.9
+    mac: 00:e0:6b:ff:06:03
+
+  # Everything related to Kissbox MER
+  kissbox-mer:
+    type: kissbox
+    barcode: kb005883
+    description: Kissbox in MER
+    ip: 172.16.75.11
+    mac: 00:e0:6b:7e:ff:8a
+
+  kissbox-mer-groep-001:
+    type: powerrelay
+    description: Werkverlichting Dinosafari 1 (phl.e00.04.00)
+    ip: 172.16.75.11
+    mac: 00:e0:6b:7e:ff:8a
+    state: enabled
+    slot: 0
+    channel: 0
+    actions:
+      - poweron
+      - poweroff
+      - status
+
+  kissbox-mer-groep-002:
+    type: powerrelay
+    description: Werkverlichting Dinosafari 2 (phl.e00.05.00)
+    ip: 172.16.75.11
+    mac: 00:e0:6b:7e:ff:8a
+    state: enabled
+    slot: 0
+    channel: 1
+    actions:
+      - poweron
+      - poweroff
+      - status
+
+  kissbox-mer-groep-003:
+    type: powerrelay
+    description: Animatronics Dinosafari 1 (eiland 2) + Achtergrondgeluid Dinosafari 1 + videoplayer-002 (Wandverlichting Dinosafari 1 (phl.e00.04.00) + Vitrine verlichting Dinosafari 2 (phl.e00.05.00))
+    ip: 172.16.75.11
+    mac: 00:e0:6b:7e:ff:8a
+    state: enabled
+    slot: 0
+    channel: 2
+    actions:
+      - poweron
+      - poweroff
+      - status
+
+  kissbox-mer-groep-004:
+    type: powerrelay
+    description: Gewone, wit-gele spots Dinosafari 1 (Dimmer 1 Dinosafari 1, Dimmer 2 Dinosafari 1 (phl.e00.04.00))
+    ip: 172.16.75.11
+    mac: 00:e0:6b:7e:ff:8a
+    state: enabled
+    slot: 0
+    channel: 3
+    actions:
+      - poweron
+      - poweroff
+      - status
+
+  kissbox-mer-groep-005:
+    type: powerrelay
+    description: Animatronics Dinosafari 2 (eiland 1 en 2) + Achtergrondgeluid Dinosafari 2 + Videoplayers 003 en 004 (Wandverlichting Dinosafari 2, Vitrineverlichting Dinosafari 2)
+    ip: 172.16.75.11
+    mac: 00:e0:6b:7e:ff:8a
+    state: enabled
+    slot: 1
+    channel: 0
+    actions:
+      - poweron
+      - poweroff
+      - status
+
+  kissbox-mer-groep-006:
+    type: powerrelay
+    description: Gewone, wit-gele spots Dinosafari 1 (Dimmer 3 Dinosafari 2, Dimmer 4 Dinosafari 2)
+    ip: 172.16.75.11
+    mac: 00:e0:6b:7e:ff:8a
+    state: enabled
+    slot: 1
+    channel: 1
+    actions:
+      - poweron
+      - poweroff
+      - status
+
+  kissbox-mer-groep-007:
+    type: powerrelay
+    description: Verlichting entresol Dinosafari 2
+    ip: 172.16.75.11
+    mac: 00:e0:6b:7e:ff:8a
+    state: enabled
+    slot: 1
+    channel: 2
+    actions:
+      - poweron
+      - poweroff
+      - status
+
+  kissbox-mer-groep-008:
+    type: powerrelay
+    description: LED belichting Dinosafari 2 (Stekkerdoos spanningsrail (groep 27))
+    ip: 172.16.75.11
+    mac: 00:e0:6b:7e:ff:8a
+    state: enabled
+    slot: 1
+    channel: 3
+    actions:
+      - poweron
+      - poweroff
+      - status
+
+  kissbox-mer-groep-009:
+    type: powerrelay
+    description: LED belichting Dinosafari 1 (Stekkerdoos spanningsrail (groep 40))
+    ip: 172.16.75.11
+    mac: 00:e0:6b:7e:ff:8a
+    state: enabled
+    slot: 2
+    channel: 0
+    actions:
+      - poweron
+      - poweroff
+      - status
+
+  kissbox-mer-groep-010:
+    type: powerrelay
+    description:  Dinosafari 1 (eiland 1) + videoplayer-001 (ASP (groep 29))
+    ip: 172.16.75.11
+    mac: 00:e0:6b:7e:ff:8a
+    state: enabled
+    slot: 2
+    channel: 1
+    actions:
+      - poweron
+      - poweroff
+      - status
+
+  kissbox-mer-groep-011:
+    type: powerrelay
+    description: Reserve
+    ip: 172.16.75.11
+    mac: 00:e0:6b:7e:ff:8a
+    state: enabled
+    slot: 2
+    channel: 2
+    actions:
+      - poweron
+      - poweroff
+      - status
+
+  kissbox-mer-groep-012:
+    type: powerrelay
+    description: Compressor
+    ip: 172.16.75.11
+    mac: 00:e0:6b:7e:ff:8a
+    state: enabled
+    slot: 2
+    channel: 3
+    actions:
+      - poweron
+      - poweroff
+      - status
+
+  # Everything related to Kissbox Lift
+  kissbox-lift:
+    type: kissbox
+    barcode: kb001236
+    description: Kissbox in Lift
+    ip: 172.16.75.12
+    mac: 00:e0:6b:7e:ff:7a
+
+  kissbox-lift-groep-001:
+    # Maar een paar werklampen lijken te werken.
+    type: powerrelay
+    description: Werkverlichting Restaurant + Amazone / Caraiben
+    ip: 172.16.75.12
+    mac: 00:e0:6b:7e:ff:7a
+    state: enabled
+    slot: 0
+    channel: 0
+    actions:
+      - poweron
+      - poweroff
+      - status
+
+  kissbox-lift-groep-002:
+    type: powerrelay
+    description: Werkverlichting Borneo / Oceanië (phl.e00.10.00)
+    ip: 172.16.75.12
+    mac: 00:e0:6b:7e:ff:7a
+    state: enabled
+    slot: 0
+    channel: 1
+    actions:
+      - poweron
+      - poweroff
+      - status
+
+  kissbox-lift-groep-003:
+    type: powerrelay
+    description: Werkverlichting Wildlife Photographer 2 (phl.e00.06.00)
+    ip: 172.16.75.12
+    mac: 00:e0:6b:7e:ff:7a
+    state: enabled
+    slot: 0
+    channel: 2
+    actions:
+      - poweron
+      - poweroff
+      - status
+
+  kissbox-lift-groep-004:
+    type: powerrelay
+    description: Infopanelen podium T.rex zaal
+    ip: 172.16.75.12
+    mac: 00:e0:6b:7e:ff:7a
+    state: enabled
+    slot: 0
+    channel: 3
+    actions:
+      - poweron
+      - poweroff
+      - status
+
+  kissbox-lift-groep-005:
+    # Nog niets te zien
+    type: powerrelay
+    description: Tijdelijke tentoonstelling spanningsrail 4 / T.rex doe dingen?
+    ip: 172.16.75.12
+    mac: 00:e0:6b:7e:ff:7a
+    state: enabled
+    slot: 1
+    channel: 0
+    actions:
+      - poweron
+      - poweroff
+      - status
+
+  kissbox-lift-groep-006:
+    type: powerrelay
+    description: Reserve
+    ip: 172.16.75.12
+    mac: 00:e0:6b:7e:ff:7a
+    state: enabled
+    slot: 1
+    channel: 1
+    actions:
+      - poweron
+      - poweroff
+      - status
+
+  # Everything related to Kissbox SER
+  kissbox-ser:
+    type: kissbox
+    barcode: kb001237
+    description: Kissbox in SER
+    ip: 172.16.75.13
+    mac: 00:e0:6b:7e:ff:4d
+
+  kissbox-ser-groep-001:
+    type: powerrelay
+    description:  Borneo / Oceanië (players en belichting) + belichting Wildlife Photographer of the Year 2 (vanaf plafond)
+    ip: 172.16.75.13
+    mac: 00:e0:6b:7e:ff:4d
+    state: enabled
+    slot: 0
+    channel: 0
+    actions:
+      - poweron
+      - poweroff
+      - status
+
+  kissbox-ser-groep-002:
+    type: powerrelay
+    description: Reserve
+    ip: 172.16.75.13
+    mac: 00:e0:6b:7e:ff:4d
+    state: enabled
+    slot: 0
+    channel: 1
+    actions:
+      - poweron
+      - poweroff
+      - status
 #
 #  # Audio players
 #  bs-audio-schreeuwpiha-001:
@@ -494,56 +494,56 @@ devices:
 #      - start
 #      - stop
 #
-#  # E-ticket
-#  eticket-checkin-002:
-#    type: linux
-#    barcode: dt005876
-#    description: E-ticket checkin zuil bij (vanaf kassa's bezien links)
-#    ip: 172.16.75.25
-#    mac: 2c:94:64:00:3f:66
-#    state: enabled
-#    actions:
-#      - poweron
-#      - poweroff
-#      - status
-#
-#  eticket-checkin-003:
-#    type: linux
-#    barcode: dt005917
-#    description: E-ticket checkin zuil (vanaf kassa's bezien rechts)
-#    ip: 172.16.75.28
-#    mac: 2c:94:64:00:3f:fc
-#    state: enabled
-#    actions:
-#      - poweron
-#      - poweroff
-#      - status
-#
-#  # Scanzuilen
-#  scanzuil-001:
-#    type: linux
-#    barcode: dt00xxxx
-#    description: Scanzuil Verwonderpaspoort
-#    ip: 172.16.75.31
-#    mac: 2c:94:64:00:97:c6
-#    state: enabled
-#    actions:
-#      - poweron
-#      - poweroff
-#      - status
+  # E-ticket
+  eticket-checkin-002:
+    type: linux
+    barcode: dt005876
+    description: E-ticket checkin zuil bij (vanaf kassa's bezien links)
+    ip: 172.16.75.25
+    mac: 2c:94:64:00:3f:66
+    state: enabled
+    actions:
+      - poweron
+      - poweroff
+      - status
+
+  eticket-checkin-003:
+    type: linux
+    barcode: dt005917
+    description: E-ticket checkin zuil (vanaf kassa's bezien rechts)
+    ip: 172.16.75.28
+    mac: 2c:94:64:00:3f:fc
+    state: enabled
+    actions:
+      - poweron
+      - poweroff
+      - status
+
+  # Scanzuilen
+  scanzuil-001:
+    type: linux
+    barcode: dt00xxxx
+    description: Scanzuil Verwonderpaspoort
+    ip: 172.16.75.31
+    mac: 2c:94:64:00:97:c6
+    state: enabled
+    actions:
+      - poweron
+      - poweroff
+      - status
         
   # Everything related to Kissbox SER
-  mpower-test:
+  mpower-001:
     type: mpower
     barcode: mp001234
     description: mPower power strip for test
-    ip: 172.16.45.22
+    ip: 172.16.45.55
     mac: 04:18:d6:54:1c:5d
 
-  mpower-test-port-001:
+  mpower-001-port-001:
     type: mpower
     description: iFan a.k.a. macVentilator
-    ip: 172.16.45.22
+    ip: 172.16.75.55
     mac: 04:18:d6:54:1c:5d
     state: enabled
     port: 1
