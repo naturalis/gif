@@ -13,7 +13,7 @@
 
 devices:
   # Stargazer
-  foreman-001:
+  stargazer-server1:
     type: linux
     barcode: sr004346
     description: Stargazer and Foreman server
@@ -70,10 +70,10 @@ devices:
     ip: 172.16.75.11
     mac: 00:e0:6b:7e:ff:8a
 
-  kissbox-mer-groep-001:
+  kissbox-mer-switch-001:
     type: powerrelay
-    description: Werkverlichting Dinosafari 1 (phl.e00.04.00)
-    ip: 172.16.75.11
+    description: Werkverlichting zaal 1 (phl.e00.04.00)
+    ip: 192.168.178.1
     mac: 00:e0:6b:7e:ff:8a
     state: enabled
     slot: 0
@@ -83,9 +83,9 @@ devices:
       - poweroff
       - status
 
-  kissbox-mer-groep-002:
+  kissbox-mer-switch-002:
     type: powerrelay
-    description: Werkverlichting Dinosafari 2 (phl.e00.05.00)
+    description: Werkverlichting zaal 2 (phl.e00.05.00)
     ip: 172.16.75.11
     mac: 00:e0:6b:7e:ff:8a
     state: enabled
@@ -96,7 +96,7 @@ devices:
       - poweroff
       - status
 
-  kissbox-mer-groep-003:
+  kissbox-mer-switch-003:
     type: powerrelay
     description: Animatronics Dinosafari 1 (eiland 2) + Achtergrondgeluid Dinosafari 1 + videoplayer-002 (Wandverlichting Dinosafari 1 (phl.e00.04.00) + Vitrine verlichting Dinosafari 2 (phl.e00.05.00))
     ip: 172.16.75.11
@@ -109,7 +109,7 @@ devices:
       - poweroff
       - status
 
-  kissbox-mer-groep-004:
+  kissbox-mer-switch-004:
     type: powerrelay
     description: Gewone, wit-gele spots Dinosafari 1 (Dimmer 1 Dinosafari 1, Dimmer 2 Dinosafari 1 (phl.e00.04.00))
     ip: 172.16.75.11
@@ -122,7 +122,7 @@ devices:
       - poweroff
       - status
 
-  kissbox-mer-groep-005:
+  kissbox-mer-switch-005:
     type: powerrelay
     description: Animatronics Dinosafari 2 (eiland 1 en 2) + Achtergrondgeluid Dinosafari 2 + Videoplayers 003 en 004 (Wandverlichting Dinosafari 2, Vitrineverlichting Dinosafari 2)
     ip: 172.16.75.11
@@ -135,7 +135,7 @@ devices:
       - poweroff
       - status
 
-  kissbox-mer-groep-006:
+  kissbox-mer-switch-006:
     type: powerrelay
     description: Gewone, wit-gele spots Dinosafari 1 (Dimmer 3 Dinosafari 2, Dimmer 4 Dinosafari 2)
     ip: 172.16.75.11
@@ -148,7 +148,7 @@ devices:
       - poweroff
       - status
 
-  kissbox-mer-groep-007:
+  kissbox-mer-switch-007:
     type: powerrelay
     description: Verlichting entresol Dinosafari 2
     ip: 172.16.75.11
@@ -161,7 +161,7 @@ devices:
       - poweroff
       - status
 
-  kissbox-mer-groep-008:
+  kissbox-mer-switch-008:
     type: powerrelay
     description: LED belichting Dinosafari 2 (Stekkerdoos spanningsrail (groep 27))
     ip: 172.16.75.11
@@ -174,7 +174,7 @@ devices:
       - poweroff
       - status
 
-  kissbox-mer-groep-009:
+  kissbox-mer-switch-009:
     type: powerrelay
     description: LED belichting Dinosafari 1 (Stekkerdoos spanningsrail (groep 40))
     ip: 172.16.75.11
@@ -187,9 +187,9 @@ devices:
       - poweroff
       - status
 
-  kissbox-mer-groep-010:
+  kissbox-mer-switch-010:
     type: powerrelay
-    description:  Dinosafari 1 (eiland 1) + videoplayer-001 (ASP (groep 29))
+    description: Dinosafari 1 (eiland 1) + videoplayer-001 (ASP (groep 29))
     ip: 172.16.75.11
     mac: 00:e0:6b:7e:ff:8a
     state: enabled
@@ -200,7 +200,7 @@ devices:
       - poweroff
       - status
 
-  kissbox-mer-groep-011:
+  kissbox-mer-switch-011:
     type: powerrelay
     description: Reserve
     ip: 172.16.75.11
@@ -213,7 +213,7 @@ devices:
       - poweroff
       - status
 
-  kissbox-mer-groep-012:
+  kissbox-mer-switch-012:
     type: powerrelay
     description: Compressor
     ip: 172.16.75.11
@@ -234,10 +234,10 @@ devices:
     ip: 172.16.75.12
     mac: 00:e0:6b:7e:ff:7a
 
-  kissbox-lift-groep-001:
+  kissbox-lift-switch-001:
     # Maar een paar werklampen lijken te werken.
     type: powerrelay
-    description: Werkverlichting Restaurant + Amazone / Caraiben
+    description: Werkverlichting Restaurant + Dierenverzorging
     ip: 172.16.75.12
     mac: 00:e0:6b:7e:ff:7a
     state: enabled
@@ -248,9 +248,9 @@ devices:
       - poweroff
       - status
 
-  kissbox-lift-groep-002:
+  kissbox-lift-switch-002:
     type: powerrelay
-    description: Werkverlichting Borneo / Oceanië (phl.e00.10.00)
+    description: Werkverlichting zaal 3 (phl.e00.10.00)
     ip: 172.16.75.12
     mac: 00:e0:6b:7e:ff:7a
     state: enabled
@@ -261,7 +261,7 @@ devices:
       - poweroff
       - status
 
-  kissbox-lift-groep-003:
+  kissbox-lift-switch-003:
     type: powerrelay
     description: Werkverlichting Wildlife Photographer 2 (phl.e00.06.00)
     ip: 172.16.75.12
@@ -274,7 +274,7 @@ devices:
       - poweroff
       - status
 
-  kissbox-lift-groep-004:
+  kissbox-lift-switch-004:
     type: powerrelay
     description: Infopanelen podium T.rex zaal
     ip: 172.16.75.12
@@ -287,7 +287,7 @@ devices:
       - poweroff
       - status
 
-  kissbox-lift-groep-005:
+  kissbox-lift-switch-005:
     # Nog niets te zien
     type: powerrelay
     description: Tijdelijke tentoonstelling spanningsrail 4 / T.rex doe dingen?
@@ -301,7 +301,7 @@ devices:
       - poweroff
       - status
 
-  kissbox-lift-groep-006:
+  kissbox-lift-switch-006:
     type: powerrelay
     description: Reserve
     ip: 172.16.75.12
@@ -322,7 +322,7 @@ devices:
     ip: 172.16.75.13
     mac: 00:e0:6b:7e:ff:4d
 
-  kissbox-ser-groep-001:
+  kissbox-ser-switch-001:
     type: powerrelay
     description:  Borneo / Oceanië (players en belichting) + belichting Wildlife Photographer of the Year 2 (vanaf plafond)
     ip: 172.16.75.13
@@ -335,7 +335,7 @@ devices:
       - poweroff
       - status
 
-  kissbox-ser-groep-002:
+  kissbox-ser-switch-002:
     type: powerrelay
     description: Reserve
     ip: 172.16.75.13
@@ -347,159 +347,160 @@ devices:
       - poweron
       - poweroff
       - status
-#
-#  # Audio players
-#  bs-audio-schreeuwpiha-001:
-#    type: brightsign
-#    barcode: dt000000
-#    description: Background sound by the Schreeuwpiha in the Amazon
-#    ip: 172.16.75.15
-#    mac: 00:0d:4b:42:2a:42
-#    state: enabled
-#    actions:
-#      - start
-#      - stop
-#
-#  bs-audio-nachtzwaluw-001:
-#    type: brightsign
-#    barcode: dt000000
-#    description: Background sound by the Grijze Reuzennachtzwaluw in the Amazon
-#    ip: 172.16.75.21
-#    mac: 00:0d:4b:42:01:1c
-#    state: enabled
-#    actions:
-#      - start
-#      - stop
-#
-#  bs-audio-borneo-001:
-#    type: brightsign
-#    barcode: dt000000
-#    description: Background sound Borneo
-#    ip: 172.16.75.19
-#    mac: 00:0d:4b:42:29:18
-#    state: enabled
-#    actions:
-#      - start
-#      - stop
-#
-#  bs-audio-kikker-001:
-#    type: brightsign
-#    barcode: dt000000
-#    description: Background sound kikker
-#    ip: 172.16.75.16
-#    mac: 00:0d:4b:42:01:93
-#    state: enabled
-#    actions:
-#      - start
-#      - stop
-#
-#  bs-audio-polder-001:
-#    type: brightsign
-#    barcode: dt000000
-#    description: Background sound polder
-#    ip: 172.16.75.17
-#    mac: 00:0d:4b:42:02:97
-#    state: enabled
-#    actions:
-#      - start
-#      - stop
-#
-#  bs-audio-oceanie-001:
-#    type: brightsign
-#    barcode: dt000000
-#    description: Coral reef day + night
-#    ip: 172.16.75.22
-#    mac: 00:0d:4b:42:18:2c
-#    state: enabled
-#    actions:
-#      - start
-#      - stop
-#
-#  bs-audio-caraiben-001:
-#    type: brightsign
-#    barcode: dt000000
-#    description: Background sound Caraiben
-#    ip: 172.16.75.20
-#    mac: 00:0d:4b:42:29:21
-#    state: enabled
-#    actions:
-#      - start
-#      - stop
-#
-#  # Talking heads
-#  bs-video-berry-001:
-#    type: brightsign
-#    barcode: dt000000
-#    description: Talking head Berry
-#    ip: 172.16.75.14
-#    mac: 00:0d:4b:42:29:36
-#    state: enabled
-#    actions:
-#      - start
-#      - stop
-#
-#  bs-video-hans-001:
-#    type: brightsign
-#    barcode: dt000000
-#    description: Talking head Hans
-#    ip: 172.16.75.35
-#    mac: 00:0d:4b:42:01:ed
-#    state: enabled
-#    actions:
-#      - start
-#      - stop
-#
-#  bs-video-menno-001:
-#    type: brightsign
-#    barcode: dt000000
-#    description: Talking head Menno
-#    ip: 172.16.75.34
-#    mac: 00:0d:4b:42:29:3f
-#    state: enabled
-#    actions:
-#      - start
-#      - stop
-#
-#  bs-video-nicole-001:
-#    type: brightsign
-#    barcode: dt000000
-#    description: Talking head Nicole
-#    ip: 172.16.75.32
-#    mac: 00:0d:4b:42:01:2b
-#    state: enabled
-#    actions:
-#      - start
-#      - stop
-#
-#  # Videoplayers
-#  bs-video-mantis-001:
-#    type: brightsign
-#    barcode: dt000000
-#    description: Mantis video in Oceanië
-#    ip: 172.16.75.29
-#    mac: 00:0d:4b:42:01:1b
-#    state: enabled
-#    actions:
-#      - start
-#      - stop
-#
-#  bs-video-cinema-001:
-#    type: brightsign
-#    barcode: dt000000
-#    description: Cinema
-#    ip: 172.16.75.33
-#    mac: 00:0d:4b:42:01:43
-#    state: enabled
-#    actions:
-#      - start
-#      - stop
-#
+
+  # Stap niet op interactive
+  stapnietop-mediaplayer-001:
+    type: brightsign
+    barcode: dt000000
+    description: Mediaplayer in Stap Niet Op interactive
+    ip: 172.16.75.48
+    mac: 00:0d:4b:42:02:97
+    state: enabled
+    actions:
+      - start
+      - stop
+
+  # Sorteerspel interactive
+  sorteerspel-mediaplayer-001:
+    type: brightsign
+    barcode: dt000000
+    description: Sorteerspel mediaplayer
+    ip: 172.16.75.44
+    mac: 00:0d:4b:42:2a:42
+    state: enabled
+    actions:
+      - start
+      - stop
+
+  # Video players
+  video-intro-koningscobra-001:
+    type: brightsign
+    barcode: dt000000
+    description: Intro video koningscobra
+    ip: 172.16.75.21
+    mac: 00:0d:4b:42:01:1c
+    state: enabled
+    actions:
+      - start
+      - stop
+
+  video-paddenstoelen-001:
+    type: brightsign
+    barcode: dt000000
+    description: Video paddenstoelen
+    ip: 172.16.75.22
+    mac: 00:0d:4b:42:18:2c
+    state: enabled
+    actions:
+      - start
+      - stop
+
+  video-slangen-001:
+    type: brightsign
+    barcode: dt000000
+    description: Video slangen
+    ip: 172.16.75.26
+    mac: 00:0d:4b:42:01:ed
+    state: enabled
+    actions:
+      - start
+      - stop
+
+  video-giftigeplanten-001:
+    type: brightsign
+    barcode: dt000000
+    description: Video giftige planten
+    ip: 172.16.75.25
+    mac: 00:0d:4b:42:29:3f
+    state: enabled
+    actions:
+      - start
+      - stop
+
+  video-sponzen-001:
+    type: brightsign
+    barcode: dt000000
+    description: Video sponzen
+    ip: 172.16.75.23
+    mac: 00:0d:4b:42:01:2b
+    state: enabled
+    actions:
+      - start
+      - stop
+
+  video-mimicry-001:
+    type: brightsign
+    barcode: dt000000
+    description: Video mimicry
+    ip: 172.16.75.24
+    mac: 00:0d:4b:42:01:43
+    state: enabled
+    actions:
+      - start
+      - stop
+
+  # Talkingheads
+  talkinghead-hans-001:
+    type: brightsign
+    barcode: dt000000
+    description: Talkinghead Hans
+    ip: 172.16.75.19
+    mac: 00:0d:4b:42:29:18
+    state: enabled
+    actions:
+      - start
+      - stop
+
+  talkinghead-rob-001:
+    type: brightsign
+    barcode: dt000000
+    description: Talkinghead Rob
+    ip: 172.16.75.16
+    mac: 00:0d:4b:42:01:93
+    state: enabled
+    actions:
+      - start
+      - stop
+
+  talkinghead-freek-001:
+    type: brightsign
+    barcode: dt000000
+    description: Talkinghead Freek
+    ip: 172.16.75.20
+    mac: 00:0d:4b:42:29:21
+    state: enabled
+    actions:
+      - start
+      - stop
+
+  talkinghead-roxalie-001:
+    type: brightsign
+    barcode: dt000000
+    description: Talking head Roxalie
+    ip: 172.16.75.14
+    mac: 00:0d:4b:42:29:36
+    state: enabled
+    actions:
+      - start
+      - stop
+
+  talkinghead-nicole-001:
+    type: brightsign
+    barcode: dt000000
+    description: Talkinghead Nicole
+    ip: 172.16.75.18
+    mac: 00:0d:4b:42:01:1b
+    state: enabled
+    actions:
+      - start
+      - stop
+
   # E-ticket
   eticket-checkin-002:
     type: linux
     barcode: dt005876
     description: E-ticket checkin zuil bij (vanaf kassa's bezien links)
-    ip: 172.16.75.25
+    ip: 172.16.75.27
     mac: 2c:94:64:00:3f:66
     state: enabled
     actions:
@@ -520,7 +521,7 @@ devices:
       - status
 
   # Scanzuilen
-  scanzuil-001:
+  verwonder-scanzuil-001:
     type: linux
     barcode: dt00xxxx
     description: Scanzuil Verwonderpaspoort
@@ -532,18 +533,104 @@ devices:
       - poweroff
       - status
         
-  # Everything related to Kissbox SER
+  # Everything related to mPower power outlets
   mpower-001:
     type: mpower
     barcode: mp001234
-    description: mPower power strip for test
+    description: mPower power outlets Studio
     ip: 172.16.45.55
     mac: 04:18:d6:54:1c:5d
 
+  # TODO: Verify device
   mpower-001-port-001:
     type: mpower
-    description: iFan a.k.a. macVentilator
+    description: Power outlets Studio
     ip: 172.16.75.55
+    mac: 04:18:d6:54:1c:5d
+    state: enabled
+    port: 1
+    actions:
+      - poweron
+      - poweroff
+      - status
+
+  # TODO: Verify device
+  mpower-001-port-002:
+    type: mpower
+    description: Power outlets Studio
+    ip: 172.16.75.55
+    mac: 04:18:d6:54:1c:5d
+    state: enabled
+    port: 2
+    actions:
+      - poweron
+      - poweroff
+      - status
+
+  # TODO: Verify device
+  mpower-001-port-003:
+    type: mpower
+    description: Power outlets Studio
+    ip: 172.16.75.55
+    mac: 04:18:d6:54:1c:5d
+    state: enabled
+    port: 3
+    actions:
+      - poweron
+      - poweroff
+      - status
+
+  # TODO: Verify device
+  mpower-001-port-004:
+    type: mpower
+    description: Power outlets Studio
+    ip: 172.16.75.55
+    mac: 04:18:d6:54:1c:5d
+    state: enabled
+    port: 4
+    actions:
+      - poweron
+      - poweroff
+      - status
+
+  # TODO: Verify device
+  mpower-001-port-005:
+    type: mpower
+    description: Power outlets Studio
+    ip: 172.16.75.55
+    mac: 04:18:d6:54:1c:5d
+    state: enabled
+    port: 5
+    actions:
+      - poweron
+      - poweroff
+      - status
+
+  # TODO: Verify device
+  mpower-001-port-006:
+    type: mpower
+    description: Power outlets Studio
+    ip: 172.16.75.55
+    mac: 04:18:d6:54:1c:5d
+    state: enabled
+    port: 6
+    actions:
+      - poweron
+      - poweroff
+      - status
+
+  mpower-002:
+    type: mpower
+    barcode: mp001234
+    description: mPower power outlet Cinema
+    ip: 172.16.45.56
+    mac: 04:18:d6:54:1c:5d
+
+  # TODO: Verify device
+  mpower-002-port-001:
+    type: mpower
+    description: Power outlet Cinema - NUC?
+    ip: 172.16.75.56
     mac: 04:18:d6:54:1c:5d
     state: enabled
     port: 1

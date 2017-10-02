@@ -1,0 +1,148 @@
+config:
+  dhcpd:
+    opt5:
+      staticmap:
+        '5':
+          mac: 0c:c4:7a:03:d8:fc
+          ipaddr: 172.16.75.5
+          descr: stargazer-server1
+        '6':
+          mac: 84:8f:69:f8:ab:02
+          ipaddr: 172.16.75.6
+          descr: ecue-001
+        '9':
+          mac: 0c:c4:7a:03:d8:fc
+          ipaddr: 172.16.75.9
+          descr: kissbox-ecue-001
+        '11':
+          mac: 00:e0:6b:7e:ff:8a
+          ipaddr: 172.16.75.11
+          descr: kissbox-mer
+        '12':
+          mac: 00:e0:6b:7e:ff:7a 
+          ipaddr: 172.16.75.12
+          descr: kissbox-lift 
+        '13':
+          mac: 00:e0:6b:7e:ff:4d 
+          ipaddr: 172.16.75.13
+          descr: kissbox-ser 
+        '14':
+          mac: 00:0d:4b:42:29:36
+          ip: 172.16.75.14
+          descr: talkinghead-roxalie-001
+        '16':
+          mac: 00:0d:4b:42:01:93
+          ip: 172.16.75.16
+          descr: talkinghead-rob-001
+        '18':
+          mac: 00:0d:4b:42:01:1b
+          ip: 172.16.75.18
+          descr: talkinghead-nicole-001
+        '19':
+          mac: 00:0d:4b:42:29:18
+          ip: 172.16.75.19
+          descr: talkinghead-hans-001
+        '20':
+          mac: 00:0d:4b:42:29:21
+          ip: 172.16.75.20
+          descr: talkinghead-freek-001
+        '21':
+          mac: 00:0d:4b:42:01:1c
+          ip: 172.16.75.21
+          descr: video-intro-koningscobra-001
+        '22':
+          mac: 00:0d:4b:42:18:2c
+          ip: 172.16.75.22
+          descr: video-paddenstoelen-001
+        '23':
+          mac: 00:0d:4b:42:01:2b
+          ip: 172.16.75.23
+          descr: video-sponzen-001
+        '24':
+          mac: 00:0d:4b:42:01:43
+          ip: 172.16.75.24
+          descr: video-mimicry-001
+        '25':
+          mac: 00:0d:4b:42:29:3f
+          ip: 172.16.75.25
+          descr: video-giftigeplanten-001
+        '26':
+          mac: 00:0d:4b:42:01:ed
+          ip: 172.16.75.26
+          descr: video-slangen-001
+        '27':
+          mac: 2c:94:64:00:3f:66
+          ipaddr: 172.16.75.27
+          descr: eticket-checkin-002
+        '28':
+          mac: 2c:94:64:00:3f:fc
+          ipaddr: 172.16.75.28
+          descr: eticket-checkin-003
+        '30':
+          mac: fc:aa:14:e1:86:ee
+          ipaddr: 172.16.75.30
+          descr: streaming-pc-dt005462
+        '31':
+          mac: 2c:94:64:00:97:c6
+          ipaddr: 172.16.75.31
+          descr: verwonder-scanzuil-001
+        '37':
+          mac: 00:10:7f:98:21:bb
+          ipaddr: 172.16.75.37
+          descr: paddenstoelensoep-controller-001
+        '38':
+          mac: 00:d0:c9:fa:ca:13
+          ipaddr: 172.16.75.38
+          descr: paddenstoelensoep-input-001
+        '39':
+          mac: 00:d0:c9:fa:cb:9f
+          ipaddr: 172.16.75.39
+          descr: paddenstoelensoep-output-001
+        '40':
+          mac: 00:d0:c9:fa:dc:21
+          ipaddr: 172.16.75.40
+          descr: paddenstoelensoep-output-002
+        '41':
+          mac: 00:10:7f:98:21:5a
+          ipaddr: 172.16.75.41
+          descr: sorteerspel-controller-001
+        '42':
+          mac: 00:d0:c9:fa:c6:dd
+          ipaddr: 172.16.75.42
+          descr: sorteerspel-input-001
+        '43':
+          mac: 00:d0:c9:fa:dc:0c
+          ipaddr: 172.16.75.43
+          descr: sorteerspel-output-001
+        '44':
+          mac: 00:0d:4b:42:2a:42
+          ip: 172.16.75.44
+          descr: sorteerspel-mediaplayer-001
+        '45':
+          mac: 00:10:7f:98:21:3e
+          ip: 172.16.75.45
+          descr: stapnietop-controller-001
+        '46':
+          mac: 00:d0:c9:fa:a2:be
+          ip: 172.16.75.46
+          descr: stapnietop-inputoutput-001
+        '47':
+          mac: 00:0c:1e:04:a0:ef
+          ip: 172.16.75.47
+          descr: stapnietop-rs323-001
+        '48':
+          mac: 00:0d:4b:42:02:97
+          ip: 172.16.75.48
+          descr: stapnietop-mediaplayer-001
+        '55':
+          mac: 04:18:d6:54:1c:5d
+          ipaddr: 172.16.75.55
+          descr: mpower-001
+        '56':
+          mac: 04:18:d6:54:1a:dc
+          ipaddr: 172.16.75.56
+          descr: mpower-002
+        '57':
+          mac: 04:18:d6:54:1b:a0
+          ipaddr: 172.16.75.57
+          descr: mpower-003
