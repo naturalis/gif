@@ -250,7 +250,7 @@ devices:
 
   kissbox-lift-switch-002:
     type: powerrelay
-    description: Werkverlichting zaal 3 (phl.e00.10.00)
+    description: Werkverlichting zaal 4 (phl.e00.10.00)
     ip: 172.16.75.12
     mac: 00:e0:6b:7e:ff:7a
     state: enabled
@@ -263,7 +263,7 @@ devices:
 
   kissbox-lift-switch-003:
     type: powerrelay
-    description: Werkverlichting Wildlife Photographer 2 (phl.e00.06.00)
+    description: Werkverlichting zaal 3 (phl.e00.06.00)
     ip: 172.16.75.12
     mac: 00:e0:6b:7e:ff:7a
     state: enabled
