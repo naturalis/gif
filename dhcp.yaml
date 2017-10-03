@@ -28,47 +28,47 @@ config:
           descr: kissbox-ser 
         '14':
           mac: 00:0d:4b:42:29:36
-          ip: 172.16.75.14
+          ipaddr: 172.16.75.14
           descr: talkinghead-roxalie-001
         '16':
           mac: 00:0d:4b:42:01:93
-          ip: 172.16.75.16
+          ipaddr: 172.16.75.16
           descr: talkinghead-rob-001
         '18':
           mac: 00:0d:4b:42:01:1b
-          ip: 172.16.75.18
+          ipaddr: 172.16.75.18
           descr: talkinghead-nicole-001
         '19':
           mac: 00:0d:4b:42:29:18
-          ip: 172.16.75.19
+          ipaddr: 172.16.75.19
           descr: talkinghead-hans-001
         '20':
           mac: 00:0d:4b:42:29:21
-          ip: 172.16.75.20
+          ipaddr: 172.16.75.20
           descr: talkinghead-freek-001
         '21':
           mac: 00:0d:4b:42:01:1c
-          ip: 172.16.75.21
+          ipaddr: 172.16.75.21
           descr: video-intro-koningscobra-001
         '22':
           mac: 00:0d:4b:42:18:2c
-          ip: 172.16.75.22
+          ipaddr: 172.16.75.22
           descr: video-paddenstoelen-001
         '23':
           mac: 00:0d:4b:42:01:2b
-          ip: 172.16.75.23
+          ipaddr: 172.16.75.23
           descr: video-sponzen-001
         '24':
           mac: 00:0d:4b:42:01:43
-          ip: 172.16.75.24
+          ipaddr: 172.16.75.24
           descr: video-mimicry-001
         '25':
           mac: 00:0d:4b:42:29:3f
-          ip: 172.16.75.25
+          ipaddr: 172.16.75.25
           descr: video-giftigeplanten-001
         '26':
           mac: 00:0d:4b:42:01:ed
-          ip: 172.16.75.26
+          ipaddr: 172.16.75.26
           descr: video-slangen-001
         '27':
           mac: 2c:94:64:00:3f:66
@@ -116,23 +116,23 @@ config:
           descr: sorteerspel-output-001
         '44':
           mac: 00:0d:4b:42:2a:42
-          ip: 172.16.75.44
+          ipaddr: 172.16.75.44
           descr: sorteerspel-mediaplayer-001
         '45':
           mac: 00:10:7f:98:21:3e
-          ip: 172.16.75.45
+          ipaddr: 172.16.75.45
           descr: stapnietop-controller-001
         '46':
           mac: 00:d0:c9:fa:a2:be
-          ip: 172.16.75.46
+          ipaddr: 172.16.75.46
           descr: stapnietop-inputoutput-001
         '47':
           mac: 00:0c:1e:04:a0:ef
-          ip: 172.16.75.47
+          ipaddr: 172.16.75.47
           descr: stapnietop-rs323-001
         '48':
           mac: 00:0d:4b:42:02:97
-          ip: 172.16.75.48
+          ipaddr: 172.16.75.48
           descr: stapnietop-mediaplayer-001
         '55':
           mac: 04:18:d6:54:1c:5d
