@@ -40,8 +40,6 @@ collections:
               - mpower-001-port-001
               - mpower-001-port-002
               - mpower-001-port-003
-              - mpower-001-port-004
-              - mpower-001-port-005
               - mpower-002-port-001
           - objective: delay
             description: waiting for 3 seconds
@@ -76,6 +74,14 @@ collections:
         description: Turn off the Gif exhibition
         blocking: true
         sequence:
+          - description: Power off all projectors
+            objective: poweroff
+            devices:
+              - studio-projector-001
+              - kingcobra-projector-001
+          - objective: delay
+            description: Wait 5 minutes for the projectors to cool off
+            time: 300
           - description: Stop all Brightsign players
             objective: stop
             devices:
@@ -108,8 +114,6 @@ collections:
               - mpower-001-port-001
               - mpower-001-port-002
               - mpower-001-port-003
-              - mpower-001-port-004
-              - mpower-001-port-005
               - mpower-002-port-001
           - description: Turning off powerrelay
             objective: poweroff
@@ -152,6 +156,8 @@ collections:
           - description: Power on all power outlets
             objective: poweron
             devices:
+              - mpower-001-port-004
+              - mpower-001-port-005
               - mpower-001-port-006
           - objective: delay
             description: Waiting for 300 seconds
@@ -171,6 +177,8 @@ collections:
           - description: Power off all power outlets
             objective: poweroff
             devices:
+              - mpower-001-port-004
+              - mpower-001-port-005
               - mpower-001-port-006
           - objective: delay
             description: Waiting for 300 seconds

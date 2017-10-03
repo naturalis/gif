@@ -532,7 +532,30 @@ devices:
       - poweron
       - poweroff
       - status
-        
+
+  # Projectors
+  kingcobra-projector-001:
+    type: projector
+    barcode: dt00xxxx
+    description: Big projector for big snake
+    ip: 172.16.75.32
+    mac: 00:26:92:2f:10:bc
+    state: enabled
+    actions:
+      - poweroff
+      - status
+
+  studio-projector-001:
+    type: projector
+    barcode: dt00xxxx
+    description: Small projector in Studio
+    ip: 172.16.75.33
+    mac: 00:18:23:28:3d:65
+    state: enabled
+    actions:
+      - poweroff
+      - status
+ 
   # Everything related to mPower power outlets
   mpower-001:
     type: mpower
