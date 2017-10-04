@@ -525,7 +525,7 @@ devices:
     type: projector
     barcode: dt00xxxx
     description: Big projector for big snake
-    ip: 172.16.75.189
+    ip: 172.16.75.32
     mac: 00:26:92:2f:10:bc
     state: enabled
     actions:
@@ -536,7 +536,7 @@ devices:
     type: projector
     barcode: dt00xxxx
     description: Small projector in Studio
-    ip: 172.16.75.164
+    ip: 172.16.75.33
     mac: 00:18:23:28:3d:65
     state: enabled
     actions:
