@@ -1,16 +1,3 @@
-# YAML file defining all devices.
-# ID should be unique
-# device-001:
-#   type: computer
-#   barcode: dt000000
-#   description: Device
-#   ip: 172.16.75.222
-#   mac: 00:00:00:00
-#   actions:
-#     - poweron
-#     - poweroff
-#     - status
-
 devices:
   # Stargazer
   stargazer-server1:
@@ -72,7 +59,7 @@ devices:
 
   kissbox-mer-switch-001:
     type: powerrelay
-    description: Werkverlichting zaal 1 (phl.e00.04.00)
+    description: Werkverlichting zaal 1
     ip: 172.16.75.11
     mac: 00:e0:6b:7e:ff:8a
     state: enabled
@@ -85,7 +72,7 @@ devices:
 
   kissbox-mer-switch-002:
     type: powerrelay
-    description: Werkverlichting zaal 2 (phl.e00.05.00)
+    description: Werkverlichting zaal 2
     ip: 172.16.75.11
     mac: 00:e0:6b:7e:ff:8a
     state: enabled
@@ -98,7 +85,7 @@ devices:
 
   kissbox-mer-switch-003:
     type: powerrelay
-    description: Animatronics Dinosafari 1 (eiland 2) + Achtergrondgeluid Dinosafari 1 + videoplayer-002 (Wandverlichting Dinosafari 1 (phl.e00.04.00) + Vitrine verlichting Dinosafari 2 (phl.e00.05.00))
+    description: Infopanelen vitrine zaal 1 + panelen linkerzijde zaal 2 (groep 19B / beide zijgoten zaal 1 en linker zijgoot zaal 2)
     ip: 172.16.75.11
     mac: 00:e0:6b:7e:ff:8a
     state: enabled
@@ -111,7 +98,7 @@ devices:
 
   kissbox-mer-switch-004:
     type: powerrelay
-    description: Gewone, wit-gele spots Dinosafari 1 (Dimmer 1 Dinosafari 1, Dimmer 2 Dinosafari 1 (phl.e00.04.00))
+    description: Nakijken: Gewone, wit-gele spots Dinosafari 1 (Dimmer 1 Dinosafari 1, Dimmer 2 Dinosafari 1)
     ip: 172.16.75.11
     mac: 00:e0:6b:7e:ff:8a
     state: enabled
@@ -124,7 +111,7 @@ devices:
 
   kissbox-mer-switch-005:
     type: powerrelay
-    description: Animatronics Dinosafari 2 (eiland 1 en 2) + Achtergrondgeluid Dinosafari 2 + Videoplayers 003 en 004 (Wandverlichting Dinosafari 2, Vitrineverlichting Dinosafari 2)
+    description: Panelen rechterzijde zaal 2 (groep 19A / rechter zijgoot zaal 2)
     ip: 172.16.75.11
     mac: 00:e0:6b:7e:ff:8a
     state: enabled
@@ -137,7 +124,7 @@ devices:
 
   kissbox-mer-switch-006:
     type: powerrelay
-    description: Gewone, wit-gele spots Dinosafari 1 (Dimmer 3 Dinosafari 2, Dimmer 4 Dinosafari 2)
+    description: Nakijken: Gewone, wit-gele spots Dinosafari 1 (Dimmer 3 Dinosafari 2, Dimmer 4 Dinosafari 2)
     ip: 172.16.75.11
     mac: 00:e0:6b:7e:ff:8a
     state: enabled
@@ -150,7 +137,7 @@ devices:
 
   kissbox-mer-switch-007:
     type: powerrelay
-    description: Verlichting entresol Dinosafari 2
+    description: Nakijken: Verlichting entresol Dinosafari 2
     ip: 172.16.75.11
     mac: 00:e0:6b:7e:ff:8a
     state: enabled
@@ -163,7 +150,7 @@ devices:
 
   kissbox-mer-switch-008:
     type: powerrelay
-    description: LED belichting Dinosafari 2 (Stekkerdoos spanningsrail (groep 27))
+    description: Nakijken: LED belichting Dinosafari 2 (Stekkerdoos spanningsrail (groep 27))
     ip: 172.16.75.11
     mac: 00:e0:6b:7e:ff:8a
     state: enabled
@@ -176,7 +163,7 @@ devices:
 
   kissbox-mer-switch-009:
     type: powerrelay
-    description: LED belichting Dinosafari 1 (Stekkerdoos spanningsrail (groep 40))
+    description: Nakijken: LED belichting Dinosafari 1 (Stekkerdoos spanningsrail (groep 40))
     ip: 172.16.75.11
     mac: 00:e0:6b:7e:ff:8a
     state: enabled
@@ -189,7 +176,7 @@ devices:
 
   kissbox-mer-switch-010:
     type: powerrelay
-    description: Dinosafari 1 (eiland 1) + videoplayer-001 (ASP (groep 29))
+    description: Nakijken: Dinosafari 1 (eiland 1) + videoplayer-001 (ASP (groep 29))
     ip: 172.16.75.11
     mac: 00:e0:6b:7e:ff:8a
     state: enabled
@@ -215,7 +202,7 @@ devices:
 
   kissbox-mer-switch-012:
     type: powerrelay
-    description: Compressor
+    description: Reserve (Voorheen schakeling compressor in techniekhok)
     ip: 172.16.75.11
     mac: 00:e0:6b:7e:ff:8a
     state: enabled
@@ -250,7 +237,7 @@ devices:
 
   kissbox-lift-switch-002:
     type: powerrelay
-    description: Werkverlichting zaal 4 (phl.e00.10.00)
+    description: Werkverlichting zaal 4
     ip: 172.16.75.12
     mac: 00:e0:6b:7e:ff:7a
     state: enabled
@@ -263,7 +250,7 @@ devices:
 
   kissbox-lift-switch-003:
     type: powerrelay
-    description: Werkverlichting zaal 3 (phl.e00.06.00)
+    description: Werkverlichting zaal 3
     ip: 172.16.75.12
     mac: 00:e0:6b:7e:ff:7a
     state: enabled
@@ -276,7 +263,7 @@ devices:
 
   kissbox-lift-switch-004:
     type: powerrelay
-    description: Infopanelen podium T.rex zaal
+    description: Panelen zaal 3 (groep 28 + 29 / beide zijgoten zaal 3)
     ip: 172.16.75.12
     mac: 00:e0:6b:7e:ff:7a
     state: enabled
@@ -290,7 +277,7 @@ devices:
   kissbox-lift-switch-005:
     # Nog niets te zien
     type: powerrelay
-    description: Tijdelijke tentoonstelling spanningsrail 4 / T.rex doe dingen?
+    description: Nakijken: Tijdelijke tentoonstelling spanningsrail 4 / T.rex doe dingen?
     ip: 172.16.75.12
     mac: 00:e0:6b:7e:ff:7a
     state: enabled
@@ -324,7 +311,7 @@ devices:
 
   kissbox-ser-switch-001:
     type: powerrelay
-    description:  Borneo / Oceanië (players en belichting) + belichting Wildlife Photographer of the Year 2 (vanaf plafond)
+    description: Panelen + belichting zaal 4 (groep 8 of 30 / beide zijgoten zaal 4)
     ip: 172.16.75.13
     mac: 00:e0:6b:7e:ff:4d
     state: enabled
@@ -499,7 +486,7 @@ devices:
   eticket-checkin-002:
     type: linux
     barcode: dt005876
-    description: E-ticket checkin zuil bij (vanaf kassa's bezien links)
+    description: E-ticket checkin zuil (vanaf kassa's bezien links)
     ip: 172.16.75.27
     mac: 2c:94:64:00:3f:66
     state: enabled
@@ -564,10 +551,9 @@ devices:
     ip: 172.16.45.55
     mac: 04:18:d6:54:1c:5d
 
-  # TODO: Verify device
   mpower-001-port-001:
     type: mpower
-    description: Power outlets Studio
+    description: Power outlet voor LED belichting Studio
     ip: 172.16.75.55
     mac: 04:18:d6:54:1c:5d
     state: enabled
@@ -577,10 +563,9 @@ devices:
       - poweroff
       - status
 
-  # TODO: Verify device
   mpower-001-port-002:
     type: mpower
-    description: Power outlets Studio
+    description: Power outlet for projector in Studio (studio-projector-001)
     ip: 172.16.75.55
     mac: 04:18:d6:54:1c:5d
     state: enabled
@@ -590,10 +575,9 @@ devices:
       - poweroff
       - status
 
-  # TODO: Verify device
   mpower-001-port-003:
     type: mpower
-    description: Power outlets Studio
+    description: Power outlet for PC kast in Studio
     ip: 172.16.75.55
     mac: 04:18:d6:54:1c:5d
     state: enabled
@@ -603,10 +587,9 @@ devices:
       - poweroff
       - status
 
-  # TODO: Verify device
   mpower-001-port-004:
     type: mpower
-    description: Power outlets Studio
+    description: Power outlet voor werklicht in Studio
     ip: 172.16.75.55
     mac: 04:18:d6:54:1c:5d
     state: enabled
@@ -616,10 +599,9 @@ devices:
       - poweroff
       - status
 
-  # TODO: Verify device
   mpower-001-port-005:
     type: mpower
-    description: Power outlets Studio
+    description: Power outlet voor audio in Studio
     ip: 172.16.75.55
     mac: 04:18:d6:54:1c:5d
     state: enabled
@@ -629,10 +611,9 @@ devices:
       - poweroff
       - status
 
-  # TODO: Verify device
   mpower-001-port-006:
     type: mpower
-    description: Power outlets Studio
+    description: Reserve power outlet voor Studio
     ip: 172.16.75.55
     mac: 04:18:d6:54:1c:5d
     state: enabled

@@ -28,10 +28,8 @@ collections:
               - kissbox-mer-switch-008
               - kissbox-mer-switch-009
               - kissbox-mer-switch-010
-              - kissbox-mer-switch-011
               - kissbox-lift-switch-004
               - kissbox-lift-switch-005
-              - kissbox-lift-switch-006
               - kissbox-ser-switch-001
               - kissbox-ser-switch-002
           - description: Power on all power outlets
@@ -40,6 +38,8 @@ collections:
               - mpower-001-port-001
               - mpower-001-port-002
               - mpower-001-port-003
+              - mpower-001-port-005
+              - mpower-001-port-006
               - mpower-002-port-001
           - objective: delay
             description: waiting for 3 seconds
@@ -114,6 +114,8 @@ collections:
               - mpower-001-port-001
               - mpower-001-port-002
               - mpower-001-port-003
+              - mpower-001-port-005
+              - mpower-001-port-006
               - mpower-002-port-001
           - description: Turning off powerrelay
             objective: poweroff
@@ -126,10 +128,8 @@ collections:
               - kissbox-mer-switch-008
               - kissbox-mer-switch-009
               - kissbox-mer-switch-010
-              - kissbox-mer-switch-011
               - kissbox-lift-switch-004
               - kissbox-lift-switch-005
-              - kissbox-lift-switch-006
               - kissbox-ser-switch-001
               - kissbox-ser-switch-002
           - objective: delay
@@ -157,8 +157,6 @@ collections:
             objective: poweron
             devices:
               - mpower-001-port-004
-              - mpower-001-port-005
-              - mpower-001-port-006
           - objective: delay
             description: Waiting for 300 seconds
             time: 300
@@ -178,8 +176,6 @@ collections:
             objective: poweroff
             devices:
               - mpower-001-port-004
-              - mpower-001-port-005
-              - mpower-001-port-006
           - objective: delay
             description: Waiting for 300 seconds
             time: 300
