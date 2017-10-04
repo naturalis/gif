@@ -98,7 +98,7 @@ devices:
 
   kissbox-mer-switch-004:
     type: powerrelay
-    description: Nakijken: Gewone, wit-gele spots Dinosafari 1 (Dimmer 1 Dinosafari 1, Dimmer 2 Dinosafari 1)
+    description: Nakijken. Gewone, wit-gele spots Dinosafari 1 (Dimmer 1 Dinosafari 1, Dimmer 2 Dinosafari 1)
     ip: 172.16.75.11
     mac: 00:e0:6b:7e:ff:8a
     state: enabled
@@ -124,7 +124,7 @@ devices:
 
   kissbox-mer-switch-006:
     type: powerrelay
-    description: Nakijken: Gewone, wit-gele spots Dinosafari 1 (Dimmer 3 Dinosafari 2, Dimmer 4 Dinosafari 2)
+    description: Nakijken. Gewone, wit-gele spots Dinosafari 1 (Dimmer 3 Dinosafari 2, Dimmer 4 Dinosafari 2)
     ip: 172.16.75.11
     mac: 00:e0:6b:7e:ff:8a
     state: enabled
@@ -137,7 +137,7 @@ devices:
 
   kissbox-mer-switch-007:
     type: powerrelay
-    description: Nakijken: Verlichting entresol Dinosafari 2
+    description: Nakijken. Verlichting entresol Dinosafari 2
     ip: 172.16.75.11
     mac: 00:e0:6b:7e:ff:8a
     state: enabled
@@ -150,7 +150,7 @@ devices:
 
   kissbox-mer-switch-008:
     type: powerrelay
-    description: Nakijken: LED belichting Dinosafari 2 (Stekkerdoos spanningsrail (groep 27))
+    description: Nakijken. LED belichting Dinosafari 2 (Stekkerdoos spanningsrail (groep 27))
     ip: 172.16.75.11
     mac: 00:e0:6b:7e:ff:8a
     state: enabled
@@ -163,7 +163,7 @@ devices:
 
   kissbox-mer-switch-009:
     type: powerrelay
-    description: Nakijken: LED belichting Dinosafari 1 (Stekkerdoos spanningsrail (groep 40))
+    description: Nakijken. LED belichting Dinosafari 1 (Stekkerdoos spanningsrail (groep 40))
     ip: 172.16.75.11
     mac: 00:e0:6b:7e:ff:8a
     state: enabled
@@ -176,7 +176,7 @@ devices:
 
   kissbox-mer-switch-010:
     type: powerrelay
-    description: Nakijken: Dinosafari 1 (eiland 1) + videoplayer-001 (ASP (groep 29))
+    description: Nakijken. Dinosafari 1 (eiland 1) + videoplayer-001 (ASP (groep 29))
     ip: 172.16.75.11
     mac: 00:e0:6b:7e:ff:8a
     state: enabled
@@ -277,7 +277,7 @@ devices:
   kissbox-lift-switch-005:
     # Nog niets te zien
     type: powerrelay
-    description: Nakijken: Tijdelijke tentoonstelling spanningsrail 4 / T.rex doe dingen?
+    description: Nakijken. Tijdelijke tentoonstelling spanningsrail 4 / T.rex doe dingen?
     ip: 172.16.75.12
     mac: 00:e0:6b:7e:ff:7a
     state: enabled
