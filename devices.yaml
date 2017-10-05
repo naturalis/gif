@@ -335,8 +335,8 @@ devices:
       - poweroff
       - status
 
-  # Stap niet op interactive
-  stapnietop-mediaplayer-001:
+  # Mediaplayer in Stap Niet Op interactive
+  stap_niet_op-bs-001:
     type: brightsign
     barcode: dt000000
     description: Mediaplayer in Stap Niet Op interactive
@@ -347,8 +347,8 @@ devices:
       - start
       - stop
 
-  # Sorteerspel interactive
-  sorteerspel-mediaplayer-001:
+  # Mediaplayer in Sorteerspel interactive
+  sorteerspel-bs-001:
     type: brightsign
     barcode: dt000000
     description: Sorteerspel mediaplayer
@@ -359,11 +359,11 @@ devices:
       - start
       - stop
 
-  # Video players
-  video-intro-koningscobra-001:
+  # AV schermen
+  av_king_cobra-bs-001:
     type: brightsign
     barcode: dt000000
-    description: Intro video koningscobra
+    description: Projectie intro video koningscobra
     ip: 172.16.75.21
     mac: 00:0d:4b:42:01:1c
     state: enabled
@@ -371,21 +371,10 @@ devices:
       - start
       - stop
 
-  video-paddenstoelen-001:
+  av_slangen-bs-001:
     type: brightsign
     barcode: dt000000
-    description: Video paddenstoelen
-    ip: 172.16.75.22
-    mac: 00:0d:4b:42:18:2c
-    state: enabled
-    actions:
-      - start
-      - stop
-
-  video-slangen-001:
-    type: brightsign
-    barcode: dt000000
-    description: Video slangen
+    description: Cinema scherm met video slangen
     ip: 172.16.75.26
     mac: 00:0d:4b:42:01:ed
     state: enabled
@@ -393,77 +382,21 @@ devices:
       - start
       - stop
 
-  video-giftigeplanten-001:
+  av_paddenstoelen-bs-001:
     type: brightsign
     barcode: dt000000
-    description: Video giftige planten
-    ip: 172.16.75.25
-    mac: 00:0d:4b:42:29:3f
+    description: AV scherm paddenstoelen
+    ip: 172.16.75.18
+    mac: 00:0d:4b:42:01:1b
     state: enabled
     actions:
       - start
       - stop
 
-  video-sponzen-001:
+  av_giftige_planten-bs-001:
     type: brightsign
     barcode: dt000000
-    description: Video sponzen
-    ip: 172.16.75.23
-    mac: 00:0d:4b:42:01:2b
-    state: enabled
-    actions:
-      - start
-      - stop
-
-  video-mimicry-001:
-    type: brightsign
-    barcode: dt000000
-    description: Video mimicry
-    ip: 172.16.75.24
-    mac: 00:0d:4b:42:01:43
-    state: enabled
-    actions:
-      - start
-      - stop
-
-  # Talkingheads
-  talkinghead-hans-001:
-    type: brightsign
-    barcode: dt000000
-    description: Talkinghead Hans
-    ip: 172.16.75.19
-    mac: 00:0d:4b:42:29:18
-    state: enabled
-    actions:
-      - start
-      - stop
-
-  talkinghead-rob-001:
-    type: brightsign
-    barcode: dt000000
-    description: Talkinghead Rob
-    ip: 172.16.75.16
-    mac: 00:0d:4b:42:01:93
-    state: enabled
-    actions:
-      - start
-      - stop
-
-  talkinghead-freek-001:
-    type: brightsign
-    barcode: dt000000
-    description: Talkinghead Freek
-    ip: 172.16.75.20
-    mac: 00:0d:4b:42:29:21
-    state: enabled
-    actions:
-      - start
-      - stop
-
-  talkinghead-roxalie-001:
-    type: brightsign
-    barcode: dt000000
-    description: Talking head Roxalie
+    description: AV scherm giftige planten
     ip: 172.16.75.14
     mac: 00:0d:4b:42:29:36
     state: enabled
@@ -471,16 +404,82 @@ devices:
       - start
       - stop
 
-  talkinghead-nicole-001:
+  av_sponzen-bs-001:
     type: brightsign
     barcode: dt000000
-    description: Talkinghead Nicole
-    ip: 172.16.75.18
-    mac: 00:0d:4b:42:01:1b
+    description: AV scherm sponzen
+    ip: 172.16.75.23
+    mac: 00:0d:4b:42:01:2b
     state: enabled
     actions:
       - start
       - stop
+
+  av_mimicry-bs-001:
+    type: brightsign
+    barcode: dt000000
+    description: AV scherm mimicry
+    ip: 172.16.75.24
+    mac: 00:0d:4b:42:01:43
+    state: enabled
+    actions:
+      - start
+      - stop
+
+  av_animal_keeper-bs-001:
+    type: brightsign
+    barcode: dt000000
+    description: AV scherm dierenverzorging
+    ip: 172.16.75.25
+    mac: 00:0d:4b:42:29:3f
+    state: enabled
+    actions:
+      - start
+      - stop
+
+#  talkinghead-rob-001:
+#    type: brightsign
+#    barcode: dt000000
+#    description: Talkinghead Rob
+#    ip: 172.16.75.16
+#    mac: 00:0d:4b:42:01:93
+#    state: enabled
+#    actions:
+#      - start
+#      - stop
+#
+#  talkinghead-freek-001:
+#    type: brightsign
+#    barcode: dt000000
+#    description: Talkinghead Freek
+#    ip: 172.16.75.20
+#    mac: 00:0d:4b:42:29:21
+#    state: enabled
+#    actions:
+#      - start
+#      - stop
+#
+#  talkinghead-roxalie-001:
+#    type: brightsign
+#    barcode: dt000000
+#    description: Talking head Roxalie
+#    ip: 172.16.75.19
+#    mac: 00:0d:4b:42:29:18
+#    state: enabled
+#    actions:
+#      - start
+#      - stop
+#
+#  talkinghead-nicole-001:
+#    type: brightsign
+#    barcode: dt000000
+#    description: Talkinghead Nicole
+#    ip: 172.16.75.22
+#    mac: 00:0d:4b:42:18:2c
+#    state: enabled
+#    actions:
+#      - start
+#      - stop
 
   # E-ticket
   eticket-checkin-002:
@@ -521,7 +520,7 @@ devices:
       - status
 
   # Projectors
-  kingcobra-projector-001:
+  av_king_cobra-projector-001:
     type: projector
     barcode: dt00xxxx
     description: Big projector for big snake

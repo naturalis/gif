@@ -29,7 +29,7 @@ config:
         '14':
           mac: 00:0d:4b:42:29:36
           ipaddr: 172.16.75.14
-          descr: talkinghead-roxalie-001
+          descr: av_giftige_planten-bs-001
         '16':
           mac: 00:0d:4b:42:01:93
           ipaddr: 172.16.75.16
@@ -37,11 +37,11 @@ config:
         '18':
           mac: 00:0d:4b:42:01:1b
           ipaddr: 172.16.75.18
-          descr: talkinghead-nicole-001
+          descr: av_paddenstoelen-bs-001
         '19':
           mac: 00:0d:4b:42:29:18
           ipaddr: 172.16.75.19
-          descr: talkinghead-hans-001
+          descr: reserve brightsign
         '20':
           mac: 00:0d:4b:42:29:21
           ipaddr: 172.16.75.20
@@ -57,19 +57,19 @@ config:
         '23':
           mac: 00:0d:4b:42:01:2b
           ipaddr: 172.16.75.23
-          descr: video-sponzen-001
+          descr: av_sponzen-bs-001
         '24':
           mac: 00:0d:4b:42:01:43
           ipaddr: 172.16.75.24
-          descr: video-mimicry-001
+          descr: av_mimicry-bs-001
         '25':
           mac: 00:0d:4b:42:29:3f
           ipaddr: 172.16.75.25
-          descr: video-giftigeplanten-001
+          descr: av_animal_keeper-bs-001
         '26':
           mac: 00:0d:4b:42:01:ed
           ipaddr: 172.16.75.26
-          descr: video-slangen-001
+          descr: av_slangen-bs-001
         '27':
           mac: 2c:94:64:00:3f:66
           ipaddr: 172.16.75.27
