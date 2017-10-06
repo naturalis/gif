@@ -9,7 +9,7 @@ devices:
     state: enabled
 
   # Ecue lighting computer
-  ecue-001:
+  showlightgif-ecue-001:
     type: windows
     barcode: dt003566
     description: Ecue lighting computer
@@ -21,28 +21,21 @@ devices:
       - poweroff
       - status
 
-  reserve-001:
-    type: reserve
-    barcode: bt000000
-    description: Reserve
-    ip: 172.16.75.7
-    mac: 00:00:00:00:00:00
-
-  butler-001:
+  showlightgif-butler-001:
     type: butler
     barcode: bt000000
     description: Butler voor Ecue
     ip: 172.16.75.8
-    mac: 00:00:00:00:00:00
+    mac: 00:16:1c:f0:25:29
 
-  butler-002:
+  showlightgif-butler-002:
     type: butler
     barcode: bt000000
     description: Butler voor Ecue
     ip: 172.16.75.10
     mac: 00:00:00:00:00:00
 
-  kissbox-ecue-001:
+  showlightgif-kissbox-ecue-001:
     type: kissbox
     barcode: kb000000
     description: Kissbox op zolder voor Ecue
@@ -50,14 +43,14 @@ devices:
     mac: 00:e0:6b:ff:06:03
 
   # Everything related to Kissbox MER
-  kissbox-mer:
+  powerphl-kissbox-mer:
     type: kissbox
     barcode: kb005883
     description: Kissbox in MER
     ip: 172.16.75.11
     mac: 00:e0:6b:7e:ff:8a
 
-  kissbox-mer-switch-001:
+  powerphl-kissbox-mer-switch01:
     type: powerrelay
     description: Werkverlichting zaal 1
     ip: 172.16.75.11
@@ -70,7 +63,7 @@ devices:
       - poweroff
       - status
 
-  kissbox-mer-switch-002:
+  powerphl-kissbox-mer-switch02:
     type: powerrelay
     description: Werkverlichting zaal 2
     ip: 172.16.75.11
@@ -83,7 +76,7 @@ devices:
       - poweroff
       - status
 
-  kissbox-mer-switch-003:
+  powerphl-kissbox-mer-switch03:
     type: powerrelay
     description: Infopanelen vitrine zaal 1 + panelen linkerzijde zaal 2 (groep 19B / beide zijgoten zaal 1 en linker zijgoot zaal 2)
     ip: 172.16.75.11
@@ -96,7 +89,7 @@ devices:
       - poweroff
       - status
 
-  kissbox-mer-switch-004:
+  powerphl-kissbox-mer-switch04:
     type: powerrelay
     description: Nakijken. Gewone, wit-gele spots Dinosafari 1 (Dimmer 1 Dinosafari 1, Dimmer 2 Dinosafari 1)
     ip: 172.16.75.11
@@ -109,7 +102,7 @@ devices:
       - poweroff
       - status
 
-  kissbox-mer-switch-005:
+  powerphl-kissbox-mer-switch05:
     type: powerrelay
     description: Panelen rechterzijde zaal 2 (groep 19A / rechter zijgoot zaal 2)
     ip: 172.16.75.11
@@ -122,7 +115,7 @@ devices:
       - poweroff
       - status
 
-  kissbox-mer-switch-006:
+  powerphl-kissbox-mer-switch06:
     type: powerrelay
     description: Nakijken. Gewone, wit-gele spots Dinosafari 1 (Dimmer 3 Dinosafari 2, Dimmer 4 Dinosafari 2)
     ip: 172.16.75.11
@@ -135,7 +128,7 @@ devices:
       - poweroff
       - status
 
-  kissbox-mer-switch-007:
+  powerphl-kissbox-mer-switch07:
     type: powerrelay
     description: Nakijken. Verlichting entresol Dinosafari 2
     ip: 172.16.75.11
@@ -148,7 +141,7 @@ devices:
       - poweroff
       - status
 
-  kissbox-mer-switch-008:
+  powerphl-kissbox-mer-switch08:
     type: powerrelay
     description: Nakijken. LED belichting Dinosafari 2 (Stekkerdoos spanningsrail (groep 27))
     ip: 172.16.75.11
@@ -161,7 +154,7 @@ devices:
       - poweroff
       - status
 
-  kissbox-mer-switch-009:
+  powerphl-kissbox-mer-switch09:
     type: powerrelay
     description: Nakijken. LED belichting Dinosafari 1 (Stekkerdoos spanningsrail (groep 40))
     ip: 172.16.75.11
@@ -174,7 +167,7 @@ devices:
       - poweroff
       - status
 
-  kissbox-mer-switch-010:
+  powerphl-kissbox-mer-switch10:
     type: powerrelay
     description: Nakijken. Dinosafari 1 (eiland 1) + videoplayer-001 (ASP (groep 29))
     ip: 172.16.75.11
@@ -187,7 +180,7 @@ devices:
       - poweroff
       - status
 
-  kissbox-mer-switch-011:
+  powerphl-kissbox-mer-switch11:
     type: powerrelay
     description: Reserve
     ip: 172.16.75.11
@@ -200,7 +193,7 @@ devices:
       - poweroff
       - status
 
-  kissbox-mer-switch-012:
+  powerphl-kissbox-mer-switch12:
     type: powerrelay
     description: Reserve (Voorheen schakeling compressor in techniekhok)
     ip: 172.16.75.11
@@ -214,14 +207,14 @@ devices:
       - status
 
   # Everything related to Kissbox Lift
-  kissbox-lift:
+  powerphl-kissbox-lift:
     type: kissbox
     barcode: kb001236
     description: Kissbox in Lift
     ip: 172.16.75.12
     mac: 00:e0:6b:7e:ff:7a
 
-  kissbox-lift-switch-001:
+  powerphl-kissbox-lift-switch01:
     # Maar een paar werklampen lijken te werken.
     type: powerrelay
     description: Werkverlichting Restaurant + Dierenverzorging
@@ -235,7 +228,7 @@ devices:
       - poweroff
       - status
 
-  kissbox-lift-switch-002:
+  powerphl-kissbox-lift-switch02:
     type: powerrelay
     description: Werkverlichting zaal 4
     ip: 172.16.75.12
@@ -248,7 +241,7 @@ devices:
       - poweroff
       - status
 
-  kissbox-lift-switch-003:
+  powerphl-kissbox-lift-switch03:
     type: powerrelay
     description: Werkverlichting zaal 3
     ip: 172.16.75.12
@@ -261,7 +254,7 @@ devices:
       - poweroff
       - status
 
-  kissbox-lift-switch-004:
+  powerphl-kissbox-lift-switch04:
     type: powerrelay
     description: Panelen zaal 3 (groep 28 + 29 / beide zijgoten zaal 3)
     ip: 172.16.75.12
@@ -274,7 +267,7 @@ devices:
       - poweroff
       - status
 
-  kissbox-lift-switch-005:
+  powerphl-kissbox-lift-switch05:
     # Nog niets te zien
     type: powerrelay
     description: Nakijken. Tijdelijke tentoonstelling spanningsrail 4 / T.rex doe dingen?
@@ -288,7 +281,7 @@ devices:
       - poweroff
       - status
 
-  kissbox-lift-switch-006:
+  powerphl-kissbox-lift-switch06:
     type: powerrelay
     description: Reserve
     ip: 172.16.75.12
@@ -302,14 +295,14 @@ devices:
       - status
 
   # Everything related to Kissbox SER
-  kissbox-ser:
+  powerphl-kissbox-ser:
     type: kissbox
     barcode: kb001237
     description: Kissbox in SER
     ip: 172.16.75.13
     mac: 00:e0:6b:7e:ff:4d
 
-  kissbox-ser-switch-001:
+  powerphl-kissbox-ser-switch01:
     type: powerrelay
     description: Panelen + belichting zaal 4 (groep 8 of 30 / beide zijgoten zaal 4)
     ip: 172.16.75.13
@@ -322,7 +315,7 @@ devices:
       - poweroff
       - status
 
-  kissbox-ser-switch-002:
+  powerphl-kissbox-ser-switch02:
     type: powerrelay
     description: Reserve
     ip: 172.16.75.13
@@ -335,8 +328,88 @@ devices:
       - poweroff
       - status
 
+  # Everything related to the mPower power strip in Studio
+  powerphl-mpower-studio:
+    type: mpower
+    barcode: mp001234
+    description: mPower power strip in Studio
+    ip: 172.16.45.55
+    mac: 04:18:d6:54:1c:5d
+
+  powerphl-mpower-studio-port01:
+    type: mpower
+    description: Power outlet voor LED belichting Studio
+    ip: 172.16.75.55
+    mac: 04:18:d6:54:1c:5d
+    state: enabled
+    port: 1
+    actions:
+      - poweron
+      - poweroff
+      - status
+
+  powerphl-mpower-studio-port02:
+    type: mpower
+    description: Power outlet for projector in Studio (studio-projector-001)
+    ip: 172.16.75.55
+    mac: 04:18:d6:54:1c:5d
+    state: enabled
+    port: 2
+    actions:
+      - poweron
+      - poweroff
+      - status
+
+  powerphl-mpower-studio-port03:
+    type: mpower
+    description: Power outlet for PC kast in Studio
+    ip: 172.16.75.55
+    mac: 04:18:d6:54:1c:5d
+    state: enabled
+    port: 3
+    actions:
+      - poweron
+      - poweroff
+      - status
+
+  powerphl-mpower-studio-port04:
+    type: mpower
+    description: Power outlet voor werklicht in Studio
+    ip: 172.16.75.55
+    mac: 04:18:d6:54:1c:5d
+    state: enabled
+    port: 4
+    actions:
+      - poweron
+      - poweroff
+      - status
+
+  powerphl-mpower-studio-port05:
+    type: mpower
+    description: Power outlet voor audio in Studio
+    ip: 172.16.75.55
+    mac: 04:18:d6:54:1c:5d
+    state: enabled
+    port: 5
+    actions:
+      - poweron
+      - poweroff
+      - status
+
+  powerphl-mpower-studio-port06:
+    type: mpower
+    description: Reserve power outlet voor Studio
+    ip: 172.16.75.55
+    mac: 04:18:d6:54:1c:5d
+    state: enabled
+    port: 6
+    actions:
+      - poweron
+      - poweroff
+      - status
+
   # Mediaplayer in Stap Niet Op interactive
-  stap_niet_op-bs-001:
+  stapnietop-bs-001:
     type: brightsign
     barcode: dt000000
     description: Mediaplayer in Stap Niet Op interactive
@@ -359,11 +432,56 @@ devices:
       - start
       - stop
 
-  # AV schermen
+  # Mediaplayers in Waar zit het Gif interactive
+  waarzithetgif-kwal-001:
+    type: brightsign
+    barcode: dt000000
+    description: Afbeelding kwal in Waar zit het Gif?
+    ip: 172.16.75.16
+    mac: 00:0d:4b:42:01:93
+    state: enabled
+    actions:
+      - start
+      - stop
+
+  waarzithetgif-schorpioen-001:
+    type: brightsign
+    barcode: dt000000
+    description: Afbeelding schorpioen in Waar zit het Gif?
+    ip: 172.16.75.20
+    mac: 00:0d:4b:42:29:21
+    state: enabled
+    actions:
+      - start
+      - stop
+
+  waarzithetgif-duizendpoot-001:
+    type: brightsign
+    barcode: dt000000
+    description: Afbeelding duizendpoot in Waar zit het Gif?
+    ip: 172.16.75.19
+    mac: 00:0d:4b:42:29:18
+    state: enabled
+    actions:
+      - start
+      - stop
+
+  waarzithetgif-inktvis-001:
+    type: brightsign
+    barcode: dt000000
+    description: Afbeelding inktvis in Waar zit het Gif?
+    ip: 172.16.75.22
+    mac: 00:0d:4b:42:18:2c
+    state: enabled
+    actions:
+      - start
+      - stop
+
+  # Projectie intro video king cobra
   av_king_cobra-bs-001:
     type: brightsign
     barcode: dt000000
-    description: Projectie intro video koningscobra
+    description: Projectie intro video king cobra
     ip: 172.16.75.21
     mac: 00:0d:4b:42:01:1c
     state: enabled
@@ -371,6 +489,18 @@ devices:
       - start
       - stop
 
+  av_king_cobra-projector-001:
+    type: projector
+    barcode: dt00xxxx
+    description: Projectie intro video king cobra
+    ip: 172.16.75.32
+    mac: 00:26:92:2f:10:bc
+    state: enabled
+    actions:
+      - poweroff
+      - status
+
+  # Cinema scherm
   av_slangen-bs-001:
     type: brightsign
     barcode: dt000000
@@ -382,6 +512,7 @@ devices:
       - start
       - stop
 
+  # Overige AV schermen / talkingheads
   av_paddenstoelen-bs-001:
     type: brightsign
     barcode: dt000000
@@ -437,50 +568,6 @@ devices:
       - start
       - stop
 
-#  talkinghead-rob-001:
-#    type: brightsign
-#    barcode: dt000000
-#    description: Talkinghead Rob
-#    ip: 172.16.75.16
-#    mac: 00:0d:4b:42:01:93
-#    state: enabled
-#    actions:
-#      - start
-#      - stop
-#
-#  talkinghead-freek-001:
-#    type: brightsign
-#    barcode: dt000000
-#    description: Talkinghead Freek
-#    ip: 172.16.75.20
-#    mac: 00:0d:4b:42:29:21
-#    state: enabled
-#    actions:
-#      - start
-#      - stop
-#
-#  talkinghead-roxalie-001:
-#    type: brightsign
-#    barcode: dt000000
-#    description: Talking head Roxalie
-#    ip: 172.16.75.19
-#    mac: 00:0d:4b:42:29:18
-#    state: enabled
-#    actions:
-#      - start
-#      - stop
-#
-#  talkinghead-nicole-001:
-#    type: brightsign
-#    barcode: dt000000
-#    description: Talkinghead Nicole
-#    ip: 172.16.75.22
-#    mac: 00:0d:4b:42:18:2c
-#    state: enabled
-#    actions:
-#      - start
-#      - stop
-
   # E-ticket
   eticket-checkin-002:
     type: linux
@@ -519,18 +606,7 @@ devices:
       - poweroff
       - status
 
-  # Projectors
-  av_king_cobra-projector-001:
-    type: projector
-    barcode: dt00xxxx
-    description: Big projector for big snake
-    ip: 172.16.75.32
-    mac: 00:26:92:2f:10:bc
-    state: enabled
-    actions:
-      - poweroff
-      - status
-
+  # Studio
   studio-projector-001:
     type: projector
     barcode: dt00xxxx
@@ -542,102 +618,14 @@ devices:
       - poweroff
       - status
  
-  # Everything related to mPower power outlets
-  mpower-001:
-    type: mpower
-    barcode: mp001234
-    description: mPower power outlets Studio
-    ip: 172.16.45.55
-    mac: 04:18:d6:54:1c:5d
-
-  mpower-001-port-001:
-    type: mpower
-    description: Power outlet voor LED belichting Studio
-    ip: 172.16.75.55
-    mac: 04:18:d6:54:1c:5d
-    state: enabled
-    port: 1
-    actions:
-      - poweron
-      - poweroff
-      - status
-
-  mpower-001-port-002:
-    type: mpower
-    description: Power outlet for projector in Studio (studio-projector-001)
-    ip: 172.16.75.55
-    mac: 04:18:d6:54:1c:5d
-    state: enabled
-    port: 2
-    actions:
-      - poweron
-      - poweroff
-      - status
-
-  mpower-001-port-003:
-    type: mpower
-    description: Power outlet for PC kast in Studio
-    ip: 172.16.75.55
-    mac: 04:18:d6:54:1c:5d
-    state: enabled
-    port: 3
-    actions:
-      - poweron
-      - poweroff
-      - status
-
-  mpower-001-port-004:
-    type: mpower
-    description: Power outlet voor werklicht in Studio
-    ip: 172.16.75.55
-    mac: 04:18:d6:54:1c:5d
-    state: enabled
-    port: 4
-    actions:
-      - poweron
-      - poweroff
-      - status
-
-  mpower-001-port-005:
-    type: mpower
-    description: Power outlet voor audio in Studio
-    ip: 172.16.75.55
-    mac: 04:18:d6:54:1c:5d
-    state: enabled
-    port: 5
-    actions:
-      - poweron
-      - poweroff
-      - status
-
-  mpower-001-port-006:
-    type: mpower
-    description: Reserve power outlet voor Studio
-    ip: 172.16.75.55
-    mac: 04:18:d6:54:1c:5d
-    state: enabled
-    port: 6
-    actions:
-      - poweron
-      - poweroff
-      - status
-
-  mpower-002:
-    type: mpower
-    barcode: mp001234
-    description: mPower power outlet Cinema
-    ip: 172.16.45.56
-    mac: 04:18:d6:54:1c:5d
-
-  # TODO: Verify device
-  mpower-002-port-001:
-    type: mpower
-    description: Power outlet Cinema - NUC?
-    ip: 172.16.75.56
-    mac: 04:18:d6:54:1c:5d
-    state: enabled
-    port: 1
-    actions:
-      - poweron
-      - poweroff
-      - status
+#  studio-computer-001:
+#    type: windows
+#    barcode: dt00xxxx
+#    description: Presentation PC in Studio
+#    ip: 172.16.75.14
+#    mac: 40:8d:5c:81:9b:44
+#    state: enabled
+#    actions:
+#      - poweron
+#      - poweroff
+#      - status

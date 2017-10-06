@@ -1,4 +1,4 @@
-# this yaml is a job for turning on the museum
+# This YAML describes jobs for turning on the exhibition and work light for Gif.
 
 collections:
   trex-in-town:
@@ -17,21 +17,21 @@ collections:
           - objective: delay
             description: Waiting for 60 seconds
             time: 60
-          - description: Turning on powerrelay
+          - description: Power on all the power relays with the Kiss-box devices
             objective: poweron
             devices:
-              - kissbox-mer-switch-003
-              - kissbox-mer-switch-004
-              - kissbox-mer-switch-005
-              - kissbox-mer-switch-006
-              - kissbox-mer-switch-007
-              - kissbox-mer-switch-008
-              - kissbox-mer-switch-009
-              - kissbox-mer-switch-010
-              - kissbox-lift-switch-004
-              - kissbox-lift-switch-005
-              - kissbox-ser-switch-001
-              - kissbox-ser-switch-002
+              - powerphl-kissbox-mer-switch03
+              - powerphl-kissbox-mer-switch04
+              - powerphl-kissbox-mer-switch05
+              - powerphl-kissbox-mer-switch06
+              - powerphl-kissbox-mer-switch07
+              - powerphl-kissbox-mer-switch08
+              - powerphl-kissbox-mer-switch09
+              - powerphl-kissbox-mer-switch10
+              - powerphl-kissbox-lift-switch04
+              - powerphl-kissbox-lift-switch05
+              - powerphl-kissbox-ser-switch01
+              - powerphl-kissbox-ser-switch02
           - description: Power on all power outlets
             objective: poweron
             devices:
@@ -40,9 +40,8 @@ collections:
               - mpower-001-port-003
               - mpower-001-port-005
               - mpower-001-port-006
-              - mpower-002-port-001
           - objective: delay
-            description: waiting for 3 seconds
+            description: Wait for 3 seconds
             time: 3
           - description: Power on all computers
             objective: poweron
@@ -51,7 +50,7 @@ collections:
               - eticket-checkin-002
               - eticket-checkin-003
               - scanzuil-001
-          - description: Start all players
+          - description: Start all Brightsign players
             objective: start
             devices:
               - stap_niet_op-bs-001
@@ -109,21 +108,21 @@ collections:
               - mpower-001-port-005
               - mpower-001-port-006
               - mpower-002-port-001
-          - description: Turning off powerrelay
+          - description: Power off all the power relays with the Kiss-box devices
             objective: poweroff
             devices:
-              - kissbox-mer-switch-003
-              - kissbox-mer-switch-004
-              - kissbox-mer-switch-005
-              - kissbox-mer-switch-006
-              - kissbox-mer-switch-007
-              - kissbox-mer-switch-008
-              - kissbox-mer-switch-009
-              - kissbox-mer-switch-010
-              - kissbox-lift-switch-004
-              - kissbox-lift-switch-005
-              - kissbox-ser-switch-001
-              - kissbox-ser-switch-002
+              - powerphl-kissbox-mer-switch03
+              - powerphl-kissbox-mer-switch04
+              - powerphl-kissbox-mer-switch05
+              - powerphl-kissbox-mer-switch06
+              - powerphl-kissbox-mer-switch07
+              - powerphl-kissbox-mer-switch08
+              - powerphl-kissbox-mer-switch09
+              - powerphl-kissbox-mer-switch10
+              - powerphl-kissbox-lift-switch04
+              - powerphl-kissbox-lift-switch05
+              - powerphl-kissbox-ser-switch01
+              - powerphl-kissbox-ser-switch02
           - objective: delay
             description: Waiting for 10 seconds
             time: 10
@@ -140,11 +139,11 @@ collections:
           - description: Turning on powerrelay
             objective: poweron
             devices:
-              - kissbox-mer-switch-001
-              - kissbox-mer-switch-002
-              - kissbox-lift-switch-001
-              - kissbox-lift-switch-002
-              - kissbox-lift-switch-003
+              - powerphl-kissbox-mer-switch01
+              - powerphl-kissbox-mer-switch02
+              - powerphl-kissbox-lift-switch01
+              - powerphl-kissbox-lift-switch02
+              - powerphl-kissbox-lift-switch03
           - description: Power on all power outlets
             objective: poweron
             devices:
@@ -159,11 +158,11 @@ collections:
           - description: Turning on powerrelay
             objective: poweroff
             devices:
-              - kissbox-mer-switch-001
-              - kissbox-mer-switch-002
-              - kissbox-lift-switch-001
-              - kissbox-lift-switch-002
-              - kissbox-lift-switch-003
+              - powerphl-kissbox-mer-switch01
+              - powerphl-kissbox-mer-switch02
+              - powerphl-kissbox-lift-switch01
+              - powerphl-kissbox-lift-switch02
+              - powerphl-kissbox-lift-switch03
           - description: Power off all power outlets
             objective: poweroff
             devices:
