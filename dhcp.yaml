@@ -51,7 +51,7 @@ config:
           ipaddr: 172.16.75.20
           descr: waarzithetgif-schorpioen-001
         '21':
-          mac: 00:0d:4b:42:01:1c
+          mac: 90:ac:3f:03:aa:1c
           ipaddr: 172.16.75.21
           descr: av_king_cobra-bs-001
         '22':
