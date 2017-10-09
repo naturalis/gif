@@ -13,7 +13,7 @@ config:
         '8':
           mac: 00:16:1c:f0:25:29
           ipaddr: 172.16.75.8
-          descr: showlightgif-butler-001:
+          descr: showlightgif-butler-001
         '9':
           mac: 0c:c4:7a:03:d8:fc
           ipaddr: 172.16.75.9
