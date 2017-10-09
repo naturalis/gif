@@ -35,11 +35,11 @@ collections:
           - description: Power on all power outlets
             objective: poweron
             devices:
-              - mpower-001-port-001
-              - mpower-001-port-002
-              - mpower-001-port-003
-              - mpower-001-port-005
-              - mpower-001-port-006
+              - powerphl-mpower-studio-port01
+              - powerphl-mpower-studio-port02
+              - powerphl-mpower-studio-port03
+              - powerphl-mpower-studio-port05
+              - powerphl-mpower-studio-port06
           - objective: delay
             description: Wait for 3 seconds
             time: 3
@@ -73,7 +73,7 @@ collections:
             objective: poweroff
             devices:
               - studio-projector-001
-              - kingcobra-projector-001
+              - av_king_cobra-projector-001
           - objective: delay
             description: Wait 5 minutes for the projectors to cool off
             time: 300
@@ -102,11 +102,11 @@ collections:
           - description: Power off all power outlets
             objective: poweroff
             devices:
-              - mpower-001-port-001
-              - mpower-001-port-002
-              - mpower-001-port-003
-              - mpower-001-port-005
-              - mpower-001-port-006
+              - powerphl-mpower-studio-port01
+              - powerphl-mpower-studio-port02
+              - powerphl-mpower-studio-port03
+              - powerphl-mpower-studio-port05
+              - powerphl-mpower-studio-port06
               - mpower-002-port-001
           - description: Power off all the power relays with the Kiss-box devices
             objective: poweroff
@@ -147,7 +147,7 @@ collections:
           - description: Power on all power outlets
             objective: poweron
             devices:
-              - mpower-001-port-004
+              - powerphl-mpower-studio-port04
           - objective: delay
             description: Waiting for 300 seconds
             time: 300
@@ -166,7 +166,7 @@ collections:
           - description: Power off all power outlets
             objective: poweroff
             devices:
-              - mpower-001-port-004
+              - powerphl-mpower-studio-port04
           - objective: delay
             description: Waiting for 300 seconds
             time: 300
