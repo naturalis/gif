@@ -433,10 +433,10 @@ devices:
       - stop
 
   # Mediaplayers in Waar zit het Gif interactive
-  waarzithetgif-kwal-001:
+  waarzithetgif-vogelbekdier-001:
     type: brightsign
     barcode: dt000000
-    description: Afbeelding kwal in Waar zit het Gif?
+    description: Afbeelding vogelbekdier in Waar zit het Gif?
     ip: 172.16.75.16
     mac: 00:0d:4b:42:01:93
     state: enabled
@@ -466,10 +466,10 @@ devices:
       - start
       - stop
 
-  waarzithetgif-inktvis-001:
+  waarzithetgif-octopus-001:
     type: brightsign
     barcode: dt000000
-    description: Afbeelding inktvis in Waar zit het Gif?
+    description: Afbeelding octopus in Waar zit het Gif?
     ip: 172.16.75.22
     mac: 00:0d:4b:42:18:2c
     state: enabled

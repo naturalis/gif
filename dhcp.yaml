@@ -37,7 +37,7 @@ config:
         '16':
           mac: 00:0d:4b:42:01:93
           ipaddr: 172.16.75.16
-          descr: waarzithetgif-kwal-001
+          descr: waarzithetgif-vogelbekdier-001
         '18':
           mac: 00:0d:4b:42:01:1b
           ipaddr: 172.16.75.18
@@ -57,7 +57,7 @@ config:
         '22':
           mac: 00:0d:4b:42:18:2c
           ipaddr: 172.16.75.22
-          descr: waarzithetgif-inktvis-001
+          descr: waarzithetgif-octopus-001
         '23':
           mac: 00:0d:4b:42:01:2b
           ipaddr: 172.16.75.23
