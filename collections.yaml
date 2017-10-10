@@ -13,7 +13,7 @@ collections:
           - description: Make sure the Ecue light computer is powered off to prevent issue after power down of building
             objective: poweroff
             devices:
-              - ecue-001
+              - showlightgif-ecue-001
           - objective: delay
             description: Waiting for 60 seconds
             time: 60
