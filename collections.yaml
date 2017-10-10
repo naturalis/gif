@@ -42,16 +42,13 @@ collections:
           - objective: delay
             description: Wait for 3 seconds
             time: 3
-          - description: Power on all computers
+          - description: Power on all computers and Brightsign players
             objective: poweron
             devices:
               - showlightgif-ecue-001
               - eticket-checkin-002
               - eticket-checkin-003
               - verwonder-scanzuil-001
-          - description: Start all Brightsign players
-            objective: start
-            devices:
               - stapnietop-bs-001
               - sorteerspel-bs-001
               - av_king_cobra-bs-001
@@ -73,10 +70,7 @@ collections:
             devices:
               - studio-projector-001
               - av_king_cobra-projector-001
-          - objective: delay
-            description: Wait 5 minutes for the projectors to cool off
-            time: 300
-          - description: Stop all Brightsign players
+          - description: Stop all Brightsign players and computers
             objective: stop
             devices:
               - stapnietop-bs-001
@@ -88,16 +82,11 @@ collections:
               - av_sponzen-bs-001
               - av_mimicry-bs-001
               - av_animal_keeper-bs-001
-          - description: Power off all computers
-            objective: poweroff
-            devices:
               - showlightgif-ecue-001
-              - eticket-checkin-002
-              - eticket-checkin-003
               - verwonder-scanzuil-001
           - objective: delay
-            description: Waiting for 30 seconds
-            time: 30
+            description: Wait 5 minutes for the projectors to cool off
+            time: 300
           - description: Power off all power outlets
             objective: poweroff
             devices:
