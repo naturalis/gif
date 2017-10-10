@@ -483,7 +483,7 @@ devices:
     barcode: dt000000
     description: Projectie intro video king cobra
     ip: 172.16.75.21
-    mac: 00:0d:4b:42:01:1c
+    mac: 90:ac:3f:03:aa:1c
     state: enabled
     actions:
       - start
@@ -494,7 +494,7 @@ devices:
     barcode: dt00xxxx
     description: Projectie intro video king cobra
     ip: 172.16.75.32
-    mac: 90:ac:3f:03:aa:1c
+    mac: 00:26:92:2f:10:bc
     state: enabled
     actions:
       - poweroff
