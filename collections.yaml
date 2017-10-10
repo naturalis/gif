@@ -45,14 +45,14 @@ collections:
           - description: Power on all computers
             objective: poweron
             devices:
-              - ecue-001
+              - showlightgif-ecue-001
               - eticket-checkin-002
               - eticket-checkin-003
-              - scanzuil-001
+              - verwonder-scanzuil-001
           - description: Start all Brightsign players
             objective: start
             devices:
-              - stap_niet_op-bs-001
+              - stapnietop-bs-001
               - sorteerspel-bs-001
               - av_king_cobra-bs-001
               - av_slangen-bs-001
@@ -79,7 +79,7 @@ collections:
           - description: Stop all Brightsign players
             objective: stop
             devices:
-              - stap_niet_op-bs-001
+              - stapnietop-bs-001
               - sorteerspel-bs-001
               - av_king_cobra-bs-001
               - av_slangen-bs-001
@@ -91,10 +91,10 @@ collections:
           - description: Power off all computers
             objective: poweroff
             devices:
-              - ecue-001
+              - showlightgif-ecue-001
               - eticket-checkin-002
               - eticket-checkin-003
-              - scanzuil-001
+              - verwonder-scanzuil-001
           - objective: delay
             description: Waiting for 30 seconds
             time: 30
@@ -105,7 +105,6 @@ collections:
               - powerphl-mpower-studio-port02
               - powerphl-mpower-studio-port05
               - powerphl-mpower-studio-port06
-              - mpower-002-port-001
           - description: Power off all the power relays with the Kiss-box devices
             objective: poweroff
             devices:
@@ -168,4 +167,3 @@ collections:
           - objective: delay
             description: Waiting for 300 seconds
             time: 300
-
