@@ -417,7 +417,7 @@ devices:
  
   powerphl-mpower-zaal5-port01:
     type: mpower
-    description: Power outlet 1 zaal 05
+    description: Power outlet voor het lab in zaal 05
     ip: 172.16.75.56
     mac: 04:18:d6:54:1a:dc
     state: enabled
@@ -429,7 +429,7 @@ devices:
 
   powerphl-mpower-zaal5-port02:
     type: mpower
-    description: Power outlet 2 zaal 05
+    description: Reserve power outlet voor zaal 05
     ip: 172.16.75.56
     mac: 04:18:d6:54:1a:dc
     state: enabled
@@ -441,7 +441,7 @@ devices:
 
   powerphl-mpower-zaal5-port03:
     type: mpower
-    description: Power outlet 3 zaal 05
+    description: Reserve power outlet voor zaal 05
     ip: 172.16.75.56
     mac: 04:18:d6:54:1a:dc
     state: enabled
@@ -453,7 +453,7 @@ devices:
 
   powerphl-mpower-zaal5-port04:
     type: mpower
-    description: Power outlet 4 zaal 05
+    description: Reserve power outlet voor zaal 05
     ip: 172.16.75.56
     mac: 04:18:d6:54:1a:dc
     state: enabled
@@ -465,7 +465,7 @@ devices:
 
   powerphl-mpower-zaal5-port05:
     type: mpower
-    description: Power outlet 5 zaal 05
+    description: Reserve power outlet voor zaal 05
     ip: 172.16.75.56
     mac: 04:18:d6:54:1a:dc
     state: enabled
@@ -477,7 +477,7 @@ devices:
 
   powerphl-mpower-zaal5-port06:
     type: mpower
-    description: Power outlet 6 zaal 05
+    description: Reserve power outlet voor zaal 05
     ip: 172.16.75.56
     mac: 04:18:d6:54:1a:dc
     state: enabled
