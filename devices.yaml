@@ -408,6 +408,85 @@ devices:
       - poweroff
       - status
 
+powerphl-mpower-zaal05:
+     type: mpower
+     barcode: mp001234
+     description: mPower power strip in Zaal 05
+     ip: 172.16.45.56
+     mac: 04:18:d6:54:1a:dc
+ 
+   powerphl-mpower-zaal5-port01:
+     type: mpower
+     description: Power outlet 1 zaal 05
+     ip: 172.16.75.56
+     mac: 04:18:d6:54:1a:dc
+     state: enabled
+     port: 1
+     actions:
+       - poweron
+       - poweroff
+       - status
+
+powerphl-mpower-zaal5-port02:
+      type: mpower
+      description: Power outlet 2 zaal 05
+      ip: 172.16.75.56
+      mac: 04:18:d6:54:1a:dc
+      state: enabled
+      port: 2
+      actions:
+        - poweron
+        - poweroff
+        - status
+
+powerphl-mpower-zaal5-port03:
+      type: mpower
+      description: Power outlet 3 zaal 05
+      ip: 172.16.75.56
+      mac: 04:18:d6:54:1a:dc
+      state: enabled
+      port: 3
+      actions:
+        - poweron
+        - poweroff
+        - status
+
+powerphl-mpower-zaal5-port04:
+      type: mpower
+      description: Power outlet 4 zaal 05
+      ip: 172.16.75.56
+      mac: 04:18:d6:54:1a:dc
+      state: enabled
+      port: 4
+      actions:
+        - poweron
+        - poweroff
+        - status
+
+powerphl-mpower-zaal5-port05:
+      type: mpower
+      description: Power outlet 5 zaal 05
+      ip: 172.16.75.56
+      mac: 04:18:d6:54:1a:dc
+      state: enabled
+      port: 5
+      actions:
+        - poweron
+        - poweroff
+        - status
+
+powerphl-mpower-zaal5-port06:
+      type: mpower
+      description: Power outlet 6 zaal 05
+      ip: 172.16.75.56
+      mac: 04:18:d6:54:1a:dc
+      state: enabled
+      port: 6
+      actions:
+        - poweron
+        - poweroff
+        - status
+
   # Mediaplayer in Stap Niet Op interactive
   stapnietop-bs-001:
     type: brightsign
