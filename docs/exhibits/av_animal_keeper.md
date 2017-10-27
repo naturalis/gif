@@ -33,7 +33,7 @@ wordt gestart en gestopt via een UDP signaal (respectievelijk 'start' en 'stop')
 vanuit Stargazer.
 
 Het videobestand en de configuratie die worden gebruikt [staan in deze
-map](https://drive.google.com/open?id=0B5f_FPhR8B0nQ3JVZm1yOVQtYmc)
+map](https://drive.google.com/open?id=0B5f_FPhR8B0ncU0tNUw2c2VabzA)
 
 ## Known issues
 
