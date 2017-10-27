@@ -39,6 +39,7 @@ collections:
               - powerphl-mpower-studio-port02
               - powerphl-mpower-studio-port05
               - powerphl-mpower-studio-port06
+              - powerphl-mpower-zaal5-port01
           - objective: delay
             description: Wait for 3 seconds
             time: 3
@@ -100,6 +101,7 @@ collections:
               - powerphl-mpower-studio-port02
               - powerphl-mpower-studio-port05
               - powerphl-mpower-studio-port06
+              - powerphl-mpower-zaal5-port01
           - description: Power off all the power relays with the Kiss-box devices
             objective: poweroff
             devices:
